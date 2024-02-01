@@ -25,6 +25,6 @@ public class Solution1_1 {
         }
 
         return true;
-
     }
+    // 2~3ms
 }

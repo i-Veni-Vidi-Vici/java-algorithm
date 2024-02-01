@@ -24,4 +24,6 @@ public class Solution1 {
         // 무사히 종료될 경우 팰린드롬이므로 true 리턴
         return true;
     }
+
+    //2~3ms
 }

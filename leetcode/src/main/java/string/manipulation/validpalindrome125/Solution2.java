@@ -9,5 +9,5 @@ public class Solution2 {
         // 두 문자열이 동일한지 비교
         return s_filtered.equals(s_reversed);
     }
-     // 15ms
+     // 15~16ms
 }
