@@ -14,5 +14,5 @@ public class Main {
         }
     }
 
-    // 0ms
+    // 0ms, solution 1과 동일
 }
