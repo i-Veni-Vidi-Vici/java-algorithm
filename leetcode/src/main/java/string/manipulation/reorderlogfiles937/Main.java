@@ -2,6 +2,8 @@ package string.manipulation.reorderlogfiles937;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -16,6 +18,22 @@ public class Main {
                 letters.add(log);
             }
         }
+
+//        Collections.sort(letters, new Comparator<String>() {
+//            @Override
+//            public int compare(String s1, String s2) {
+//                String[] log1 = s1.split(" ", 2);
+//                String[] log2 = s2.split(" ", 2);
+//                int compared = log1[1].compareTo(log2[1]);
+//
+//                if (compared == 0) {
+//                    return log1[0].compareTo(log2[0]);
+//                }
+//
+//                return compared;
+//            }
+//        });
+        //  4ms 속도에 큰 차이는 없음
 
         letters.sort((s1,s2)->{
             String[] log1 = s1.split(" ", 2);
