@@ -9,11 +9,11 @@ public class Main {
         List<String> digits = new ArrayList<>();
         List<String> letters = new ArrayList<>();
 
-        for (int i = 0; i < logs.length ; i++) {
-            if (Character.isDigit(logs[i].split(" ", 2)[1].charAt(0))) {
-                digits.add(logs[i]);
+        for (String log : logs) {
+            if (Character.isDigit(log.split(" ", 2)[1].charAt(0))) {
+                digits.add(log);
             } else {
-                letters.add(logs[i]);
+                letters.add(log);
             }
         }
 
