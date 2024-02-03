@@ -11,9 +11,9 @@ public class Main2 {
         String[] words = paragraph.replaceAll("[^a-zA-Z]+", " ").toLowerCase().split(" ");
         Map<String, Integer> wordCount = new HashMap<>();
 
-//        List<String> ban = Arrays.asList(banned); //11~12ms
-//        List<String> ban = List.of(banned); //11~12ms
-        Set<String> ban = new HashSet<>(Arrays.asList(banned)); // 10ms 11ms
+//        List<String> ban = Arrays.asList(banned); //11~12ms, contains: O(n)
+//        List<String> ban = List.of(banned); //11~12ms, contains: O(n)
+        Set<String> ban = new HashSet<>(Arrays.asList(banned)); // 10ms 11ms, contains: O(1)
 
         for (String word : words) {
             if (!ban.contains(word)) {
