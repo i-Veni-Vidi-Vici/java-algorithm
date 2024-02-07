@@ -12,7 +12,7 @@ public class Main {
         boolean isSum = true;
         for (int i = 0; i < height.length; i++) {
             if (max <= height[i] && isSum) {
-                if (isTrue) {
+                if (isTrue && beforeMax < max) {
                     beforeMax = max;
                 }
                 max = height[i];
@@ -28,6 +28,8 @@ public class Main {
 
             if (maxCount == 2) {
                 result += (Math.min(beforeMax, max)*sumCount)-sum ;
+                beforeMax = max;
+                max =0;
                 sumCount =0;
                 maxCount= 1;
                 sum =0;
