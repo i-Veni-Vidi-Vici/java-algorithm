@@ -1,25 +1,11 @@
 package linear.linkedlist.palindromelinkedlist234;
 
 import java.util.Stack;
+import linear.linkedlist.palindromelinkedlist234.Main.ListNode;
 
 public class Solution1 {
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
     public boolean isPalindrome(ListNode head) {
         // 주의: 스택을 이렇게 선언하면 안됨
         Stack<Integer> stack = new Stack<>();
