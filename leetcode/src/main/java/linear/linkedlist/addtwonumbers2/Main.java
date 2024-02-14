@@ -1,5 +1,7 @@
 package linear.linkedlist.addtwonumbers2;
 
+import java.math.BigInteger;
+
 public class Main {
     public static class ListNode {
         int val;
@@ -19,32 +21,32 @@ public class Main {
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        long val1 = 0;
-        long val2 = 0;
-        long sum = 0;
+        BigInteger val1 = new BigInteger("0");
+        BigInteger val2 = new BigInteger("0");
+        BigInteger sum = new BigInteger("0");
         ListNode result = null;
 
-        long count1 = 1;
-        long count2 = 1;
+        BigInteger count1 = new BigInteger("1");
+        BigInteger count2 = new BigInteger("1");
         while (l1 != null) {
-            val1 += l1.val * count1;
+            val1 = val1.add(count1.multiply(BigInteger.valueOf(l1.val)));
             l1 = l1.next;
-            count1 *= 10;
+            count1 = count1.multiply(BigInteger.valueOf(10));
         }
 
         while (l2 != null) {
-            val2 += l2.val * count2;
+            val2 = val2.add(count2.multiply(BigInteger.valueOf(l2.val)));
             l2 = l2.next;
-            count2 *= 10;
+            count2 = count2.multiply(BigInteger.valueOf(10));
         }
 
-        sum = val1 + val2;
+        sum = val1.add(val2);
         int count3 = String.valueOf(sum).length() - 1;
 
         while (count3 >= 0) {
             ListNode current = result;
-            result = new ListNode((int)(sum /  Math.pow(10, count3)));
-            sum %= (long) Math.pow(10, count3--);
+            result = new ListNode(sum.divide(BigInteger.valueOf(10).pow(count3)).intValue());
+            sum = sum.remainder(BigInteger.valueOf(10).pow(count3--));
             result.next = current;
         }
         return result;
@@ -59,4 +61,5 @@ public class Main {
     }
 
     // error, long 타입 크기 초과로인한 오류 - 해당 로직으로는 불가능
+    // => BigInteger로 해결 17ms
 }
