@@ -57,4 +57,6 @@ public class Main {
 
         addTwoNumbers(a1, b1);
     }
+
+    // error, long 타입 크기 초과로인한 오류 - 해당 로직으로는 불가능
 }
