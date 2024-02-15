@@ -36,7 +36,6 @@ public class Main {
 
         return result.next;
     }
-
     // 0ms
 
     public static void main(String[] args) {
