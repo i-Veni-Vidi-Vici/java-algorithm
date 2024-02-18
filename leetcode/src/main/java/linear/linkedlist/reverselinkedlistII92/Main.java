@@ -1,9 +1,7 @@
 package linear.linkedlist.reverselinkedlistII92;
 
-import javax.swing.plaf.LabelUI;
-
 public class Main {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
