@@ -106,5 +106,5 @@ public class Main {
         a.getRear();
     }
 
-    // 5ms
+    // 5ms, get단계에서 front는 O(1)이지만. rear는 O(n)이라 조금더 느림
 }
