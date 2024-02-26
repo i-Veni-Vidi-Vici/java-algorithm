@@ -20,47 +20,61 @@ public class Main {
     }
 
 
-    public ListNode mergeKLists(ListNode[] lists) {
-        ListNode result = new ListNode();
-        ListNode a = result;
+    public static ListNode mergeKLists(ListNode[] lists) {
+
+        ListNode a = new ListNode();
+        ListNode result = a;
+
         if (lists.length == 1) {
             return lists[0];
         }
-        for (int i = 0; i < lists.length-1; i++) {
 
+        int size = lists.length;
+        for (int i = 0; i < size - 1; i++) {
+            a =new ListNode();
+            result = a;
 
             while (lists[i] != null || lists[i + 1] != null) {
                 if (lists[i] == null) {
                     ListNode node = lists[i + 1].next;
                     lists[i + 1].next = null;
-                    result = lists[i + 1];
+                    result.next = lists[i + 1];
                     lists[i + 1] = node;
                     result = result.next;
                 } else if (lists[i + 1] == null) {
                     ListNode node = lists[i].next;
                     lists[i].next = null;
-                    result = lists[i];
-                    lists[i ] = node;
+                    result.next = lists[i];
+                    lists[i] = node;
                     result = result.next;
-                } else if (lists[i].val >= lists[i + 1].val) {
-                    ListNode node = lists[i ].next;
+                } else if (lists[i].val <= lists[i + 1].val) {
+                    ListNode node = lists[i].next;
                     lists[i].next = null;
-                    result = lists[i ];
-                    lists[i ] = node;
+                    result.next = lists[i];
+                    lists[i] = node;
                     result = result.next;
-                } else if ( lists[i].val < lists[i + 1].val) {
+                } else if (lists[i].val > lists[i + 1].val) {
                     ListNode node = lists[i + 1].next;
                     lists[i + 1].next = null;
-                    result = lists[i + 1];
+                    result.next = lists[i + 1];
                     lists[i + 1] = node;
                     result = result.next;
                 }
             }
+            lists[i + 1] = a.next;
         }
 
         return a.next;
     }
 
-    // error
+    // 174ms
+
+    public static void main(String[] args) {
+        mergeKLists(new ListNode[]{
+                new ListNode(1, new ListNode(4, new ListNode(5))),
+                new ListNode(1, new ListNode(3, new ListNode(4))),
+                new ListNode(2, new ListNode(6)),
+        });
+    }
 
 }
