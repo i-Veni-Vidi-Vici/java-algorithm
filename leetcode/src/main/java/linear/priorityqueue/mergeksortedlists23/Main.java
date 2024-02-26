@@ -2,7 +2,7 @@ package linear.priorityqueue.mergeksortedlists23;
 
 public class Main {
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
