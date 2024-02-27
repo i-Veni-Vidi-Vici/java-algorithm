@@ -7,14 +7,11 @@ import java.util.PriorityQueue;
 public class Main {
     public static int[][] kClosest(int[][] points, int k) {
         int[][] result = new int[k][];
-        PriorityQueue<int[]> queue = new PriorityQueue<>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                if ((Math.pow(o1[0],2) + Math.pow(o1[1],2)) > (Math.pow(o2[0],2) + Math.pow(o2[1],2))) {
-                    return 1;
-                } else {
-                    return -1;
-                }
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> {
+            if ((Math.pow(o1[0],2) + Math.pow(o1[1],2)) > (Math.pow(o2[0],2) + Math.pow(o2[1],2))) {
+                return 1;
+            } else {
+                return -1;
             }
         });
 
