@@ -11,7 +11,7 @@ public class Solution1 {
         }
     }
 
-    final Node[] nodes = new Node[1000000];
+    final Node[] nodes = new Node[1000000]; // 적정한 값일 수록 속도 빨라짐
 
     // 삽입
     public void put(int key, int value) {
