@@ -3,7 +3,7 @@ package linear.hashtable.longestsubstringwithoutrepeatingcharacters3;
 import java.util.HashMap;
 
 public class Solution1 {
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> used = new HashMap<>();
         int maxLength = 0;
         int left = 0;
@@ -27,4 +27,7 @@ public class Solution1 {
     }
 
     // 5~6ms
+    public static void main(String[] args) {
+        lengthOfLongestSubstring("tmmzuxt");
+    }
 }
