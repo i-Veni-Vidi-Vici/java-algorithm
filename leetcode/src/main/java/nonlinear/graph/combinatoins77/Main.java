@@ -7,13 +7,13 @@ public class Main {
     public static void dfs(int n, int k,int index, List<List<Integer>> result, List<Integer> temp) {
         if (k == temp.size()) {
             result.add(new ArrayList<>(temp));
-            temp = new ArrayList<>();
             return;
         }
 
-        for (int i = 0; i < n; i++) {
-            temp.add(i+index);
-            dfs(n, k, index+1,result, temp);
+        for (int i = index; i <= n; i++) {
+            temp.add(i);
+            dfs(n, k, i+1,result, temp);
+            temp.remove(temp.size() - 1);
             }
         }
 
@@ -21,7 +21,7 @@ public class Main {
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
 
-        dfs(n,k,0,result,new ArrayList<>());
+        dfs(n,k,1,result,new ArrayList<>());
 
         return result;
     }
@@ -30,5 +30,5 @@ public class Main {
         combine(4, 2);
     }
 
-    // error
+    // 19ms
 }
