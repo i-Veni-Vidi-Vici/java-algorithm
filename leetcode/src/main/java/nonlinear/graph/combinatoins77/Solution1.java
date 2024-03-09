@@ -10,7 +10,7 @@ public class Solution1 {
         // k번째 노드에 도달하면 결과에 추가
         if (k == 0) {
             // 자바 8+의 스트림을 이용해 elements의 내용을 결과에 삽입
-            results.add(elements.stream().collect(Collectors.toList()));
+            results.add(new ArrayList<>(elements));
             return;
         }
 
@@ -34,5 +34,5 @@ public class Solution1 {
         return results;
     }
 
-    // 49~56ms
+    // 49~56ms -> 22ms
 }
