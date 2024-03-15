@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-
     public static void dfs(Map<Integer, List<Integer>> map,List<Integer> result){
         for (Integer i : map.keySet()) {
             if (map.get(i).isEmpty()) {
