@@ -58,4 +58,5 @@ public class Solution2 {
         // 모든 코스에 문제가 없으므로 true 리턴
         return true;
     }
+    // 45ms
 }
