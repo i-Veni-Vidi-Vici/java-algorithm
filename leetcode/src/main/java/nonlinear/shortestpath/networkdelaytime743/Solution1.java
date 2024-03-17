@@ -1,4 +1,4 @@
-package nonlinear.graph.networkdelaytime743;
+package nonlinear.shortestpath.networkdelaytime743;
 
 import java.util.AbstractMap;
 import java.util.Collections;
