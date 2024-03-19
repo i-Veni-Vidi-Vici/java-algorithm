@@ -20,9 +20,9 @@ public class Solution1 {
     }
 
     // 다익스트라 알고리즘을 위한 거리순 우선순위 큐 선언
-    Queue<Position> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.distance));
+    static Queue<Position> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.distance));
 
-    public void findPath(int y, int x, int distance, int[][] maps) {
+    public  static void findPath(int y, int x, int distance, int[][] maps) {
         if (y >= 0 &&
                 y < maps.length &&
                 x >= 0 &&
@@ -35,7 +35,7 @@ public class Solution1 {
         }
     }
 
-    public int solution(int[][] maps) {
+    public static int solution(int[][] maps) {
         // 출발지부터 삽입
         pq.add(new Position(0, 0, 1));
         // 해당 지점까지의 거리 결과를 저장하는 변수 선언
@@ -62,6 +62,11 @@ public class Solution1 {
             return dist.get(((maps.length - 1) * 1000) + (maps[0].length - 1)).distance;
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        solution(new int[][]{{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1},
+                {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}});
     }
 
     // 채점 결과
