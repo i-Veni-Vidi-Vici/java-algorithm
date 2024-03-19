@@ -6,8 +6,8 @@ import java.util.Queue;
 public class Solution1 {
     public class TreeNode {
         int val;
-        Main.TreeNode left;
-        Main.TreeNode right;
+        TreeNode left;
+        TreeNode right;
 
         TreeNode() {
         }
@@ -16,7 +16,7 @@ public class Solution1 {
             this.val = val;
         }
 
-        TreeNode(int val, Main.TreeNode left, Main.TreeNode right) {
+        TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;
