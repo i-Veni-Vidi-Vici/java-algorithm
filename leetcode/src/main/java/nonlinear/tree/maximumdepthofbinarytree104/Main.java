@@ -1,8 +1,10 @@
 package nonlinear.tree.maximumdepthofbinarytree104;
 
-import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -21,27 +23,39 @@ public class Main {
         }
     }
 
-    public int dfs(int count, TreeNode node, int max) {
-        if (max < count) {
-            max =count;
+    public static void dfs(int count, TreeNode node, List<Integer> max) {
+        if (max.get(0) < count) {
+            max.set(0, count);
         }
 
-        while (node.left != null && node.right != null) {
-            if (node.left!= null) {
-                dfs(count+1, node.left, max);
+        while (node.left != null || node.right != null) {
+            if (node.left != null) {
+                dfs(count + 1, node.left, max);
+                node.left = null;
             }
-            if (node.right!= null) {
-                dfs(count+1, node.right, max);
+            if (node.right != null) {
+                dfs(count + 1, node.right, max);
+                node.right = null;
             }
         }
-
-        return max;
     }
 
-    public int maxDepth(TreeNode root) {
+    public static int maxDepth(TreeNode root) {
+        List<Integer> max = new ArrayList<>();
+        max.add(0);
+        if(root == null)
+            return 0;
+        dfs(1, root, max);
 
-        return dfs(0, root, 0);
+
+        return max.get(0);
     }
-    // error
 
+    public static void main(String[] args) {
+//        maxDepth(new TreeNode(3, new TreeNode(9, null, null),
+//                new TreeNode(20, new TreeNode(15), new TreeNode(7))));
+        maxDepth(new TreeNode(1, null, new TreeNode(2)));
+    }
+
+    // 0ms
 }
