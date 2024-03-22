@@ -1,5 +1,5 @@
 package nonlinear.tree.longestunivaluepath687
-imp
+
 class Solution2 {
     fun longestUnivaluePath(root: Solution1.TreeNode?): Int {
         var result = 0
