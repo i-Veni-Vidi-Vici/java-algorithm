@@ -36,8 +36,8 @@ public class Main {
 //            }
 
             if (node.left == null && node.right == null && !queue.isEmpty()) {
-                queue.add(new TreeNode(1001));
-                queue.add(new TreeNode(1001));
+                    queue.add(new TreeNode(1001));
+                    queue.add(new TreeNode(1001));
             } else if (node.left == null && node.right == null) {
                 continue;
             } else if (node.left != null && node.right != null) {
