@@ -1,7 +1,7 @@
 package nonlinear.tree.bst.convertsortedarraytobinarysearchtree108;
 
 public class Main {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
