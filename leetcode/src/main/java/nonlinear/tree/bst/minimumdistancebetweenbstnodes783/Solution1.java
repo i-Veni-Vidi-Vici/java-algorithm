@@ -1,6 +1,6 @@
 package nonlinear.tree.bst.minimumdistancebetweenbstnodes783;
 
-import nonlinear.tree.bst.minimumdistancebetweenbstnodes783.Main.TreeNode;
+
 
 public class Solution1 {
     public class TreeNode {
