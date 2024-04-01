@@ -1,7 +1,7 @@
 package nonlinear.tree.bst.convertsortedarraytobinarysearchtree108;
 
 public class Solution1 {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -19,7 +19,7 @@ public class Solution1 {
             this.right = right;
         }
     }
-    public TreeNode construct(int[] nums, int lo, int hi) {
+    public static TreeNode construct(int[] nums, int lo, int hi) {
         // 예외 처리
         if (lo > hi) return null;
         // 인덱스의 중앙값 계산, 소수점은 내림
@@ -33,11 +33,16 @@ public class Solution1 {
         return node;
     }
 
-    public TreeNode sortedArrayToBST(int[] nums) {
+    public static TreeNode sortedArrayToBST(int[] nums) {
         // 예외 처리
      //   if (nums.length == 0) return null;
         // 배열 전체를 넘겨서 트리 생성 시작
         return construct(nums, 0, nums.length - 1);
+    }
+
+    public static void main(String[] args) {
+
+            sortedArrayToBST(new int[]{-10,-3,0,5,9});
     }
     // 0ms
 }
