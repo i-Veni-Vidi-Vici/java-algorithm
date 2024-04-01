@@ -1,6 +1,5 @@
 package nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105;
 
-import nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105.Main.TreeNode;
 
 public class Solution1 {
     public static class TreeNode {
