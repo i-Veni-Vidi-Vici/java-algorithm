@@ -21,7 +21,7 @@ public class Solution1 {
         }
     }
 
-    public TreeNode dfs(int preIndex, int inStart, int inEnd, int[] preorder, int[] inorder) {
+    public static TreeNode dfs(int preIndex, int inStart, int inEnd, int[] preorder, int[] inorder) {
         // 예외 처리
         if (preIndex > preorder.length - 1 || inStart > inEnd) {
             return null;
@@ -45,9 +45,13 @@ public class Solution1 {
         return node;
     }
 
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
+    public static TreeNode buildTree(int[] preorder, int[] inorder) {
         // 재귀 DFS 진행, 초깃값은 전위 순회 인덱스: 0, 중위 순회 인덱스 시작: 0, 종료: 길이 - 1
         return dfs(0, 0, inorder.length - 1, preorder, inorder);
+    }
+
+    public static void main(String[] args) {
+        buildTree(new int[]{1, 2, 4, 5, 3, 6, 7, 9, 8}, new int[]{4, 2, 5, 1, 7, 9, 6, 8, 3});
     }
 
     // 4ms
