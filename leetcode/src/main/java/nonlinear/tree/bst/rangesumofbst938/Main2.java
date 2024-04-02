@@ -23,16 +23,21 @@ public class Main2 {
     int sum = 0;
 
     public int rangeSumBST(TreeNode root, int low, int high) {
+        if (root == null) {
+            return 0;
+        }
         if (root.val >= low && root.val <= high) {
             sum += root.val;
         }
         if (root.val <=high) {
             rangeSumBST(root.right, low, high);
         }
-        if (root.left != null && root.left.val <=low) {
+        if (root.val >=low) {
             rangeSumBST(root.left, low, high);
         }
 
         return sum;
     }
+
+    // 0ms
 }
