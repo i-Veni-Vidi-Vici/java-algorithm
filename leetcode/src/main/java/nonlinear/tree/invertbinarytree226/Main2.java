@@ -24,7 +24,7 @@ public class Main2 {
         }
         stack.push(root);
         while (!stack.isEmpty()) {
-            TreeNode node = stack.poll();
+            TreeNode node = stack.pop();
 
             TreeNode temp = node.left;
             node.left = node.right;
