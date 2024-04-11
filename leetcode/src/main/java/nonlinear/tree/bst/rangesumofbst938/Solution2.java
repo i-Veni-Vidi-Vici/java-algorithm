@@ -1,6 +1,7 @@
 package nonlinear.tree.bst.rangesumofbst938;
 
 public class Solution2 {
+    // TODO : DFS - 가지치기 - 자체 메서드로 가능
     public static class TreeNode {
         int val;
         TreeNode left;

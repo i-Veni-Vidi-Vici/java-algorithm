@@ -1,9 +1,6 @@
 package nonlinear.tree.bst.rangesumofbst938;
 
-/** TODO
- * DFS 브루트포스
- *
- * **/
+// TODO : DFS - 브루트포스 자체로 가능
 
 public class Solution1 {
 
