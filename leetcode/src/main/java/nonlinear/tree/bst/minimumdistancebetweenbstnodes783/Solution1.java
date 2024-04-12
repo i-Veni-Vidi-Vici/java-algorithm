@@ -1,7 +1,6 @@
 package nonlinear.tree.bst.minimumdistancebetweenbstnodes783;
 
-
-
+// TODO : 재귀
 public class Solution1 {
     public class TreeNode {
         int val;
