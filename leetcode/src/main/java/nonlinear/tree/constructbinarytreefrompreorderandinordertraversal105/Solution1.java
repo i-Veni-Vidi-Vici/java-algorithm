@@ -1,6 +1,6 @@
 package nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105;
 
-
+// TODO : 분할정복
 public class Solution1 {
     public static class TreeNode {
         int val;
@@ -51,7 +51,8 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        buildTree(new int[]{1, 2, 4, 5, 3, 6, 7, 9, 8}, new int[]{4, 2, 5, 1, 7, 9, 6, 8, 3});
+//        buildTree(new int[]{1, 2, 4, 5, 3, 6, 7, 9, 8}, new int[]{4, 2, 5, 1, 7, 9, 6, 8, 3});
+        buildTree(new int[]{3,9,20,15,7}, new int[]{9,3,15,20,7});
     }
 
     // 4ms
