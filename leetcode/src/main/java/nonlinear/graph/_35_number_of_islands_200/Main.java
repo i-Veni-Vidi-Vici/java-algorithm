@@ -1,4 +1,4 @@
-package nonlinear.graph.numberofislands200;
+package nonlinear.graph._35_number_of_islands_200;
 
 
 public class Main {
