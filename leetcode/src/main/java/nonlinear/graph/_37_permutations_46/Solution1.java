@@ -1,4 +1,4 @@
-package nonlinear.graph.permutations46;
+package nonlinear.graph._37_permutations_46;
 
 import java.util.ArrayList;
 import java.util.Arrays;
