@@ -1,4 +1,4 @@
-package nonlinear.graph.lettercombinationsofaphonenumber17
+package nonlinear.graph._36_letter_combinations_of_a_phone_number_17
 
 class Solution2 {
     fun letterCombinations(digits: String): List<String> {
