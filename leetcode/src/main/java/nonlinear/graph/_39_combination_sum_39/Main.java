@@ -1,4 +1,4 @@
-package nonlinear.graph.combinationsum39;
+package nonlinear.graph._39_combination_sum_39;
 
 import java.util.ArrayList;
 import java.util.List;
