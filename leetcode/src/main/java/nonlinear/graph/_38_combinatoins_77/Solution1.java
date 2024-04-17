@@ -1,9 +1,8 @@
-package nonlinear.graph.combinatoins77;
+package nonlinear.graph._38_combinatoins_77;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Solution1 {
     public void dfs(List<List<Integer>> results, LinkedList<Integer> elements, int n, int start, int k) {

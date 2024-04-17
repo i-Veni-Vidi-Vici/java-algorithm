@@ -1,4 +1,4 @@
-package nonlinear.graph.combinatoins77
+package nonlinear.graph._38_combinatoins_77
 
 import java.util.*
 import java.util.stream.Collectors
