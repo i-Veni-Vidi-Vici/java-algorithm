@@ -28,5 +28,5 @@ public class Practice1 {
         combine(4, 2);
     }
 
-    // 36 ms -> 18ms (remove이용)
+    // 36 ms -> 18ms (remove이용) -> 21~22 (ArrayList -> LinkedList removeLast이용)
 }
