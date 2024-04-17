@@ -7,14 +7,14 @@ public class Practice1 {
 
     public static void dfs(int n, int k, List<List<Integer>> result, List<Integer> value, int index) {
         if (value.size() == k) {
-            result.add(value);
+            result.add(new ArrayList<>(value));
             return;
         }
 
         for (int i = index;  i <= n; i++) {
-            List<Integer> value2 = new ArrayList<>(value);
-            value2.add(i);
-            dfs(n, k, result, value2, i+1);
+            value.add(i);
+            dfs(n, k, result, value, i+1);
+            value.remove(value.size()-1);
         }
 
     }
@@ -28,5 +28,5 @@ public class Practice1 {
         combine(4, 2);
     }
 
-    // 36 ms
+    // 36 ms -> 18ms (remove이용)
 }
