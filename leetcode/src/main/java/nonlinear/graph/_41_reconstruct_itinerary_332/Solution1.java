@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+// TODO : 재귀 DFS
 public class Solution1 {
     public static void dfs(List<String> results, Map<String, PriorityQueue<String>> fromToMap, String from) {
         // from → to 값이 존재하는 경우 반복해서 재귀 DFS
@@ -36,8 +37,10 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        findItinerary(Arrays.asList(Arrays.asList("MUC", "LHR"), Arrays.asList("JFK", "MUC"),
-                Arrays.asList("SFO","SJC"), Arrays.asList("LHR","SFO")));
+//        findItinerary(Arrays.asList(Arrays.asList("MUC", "LHR"), Arrays.asList("JFK", "MUC"),
+//                Arrays.asList("SFO","SJC"), Arrays.asList("LHR","SFO")));
+        // [["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]
+        findItinerary(Arrays.asList(Arrays.asList("JFK", "KUL"), Arrays.asList("JFK", "NRT"), Arrays.asList("NRT", "JFK")));
     }
     // 7ms
 }
