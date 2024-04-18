@@ -10,8 +10,7 @@ public class Practice1 {
         for (int i = index; i < nums.length; i++) {
             value.add(nums[i]);
             result.add(new ArrayList<>(value));
-            dfs(result, nums, index+1, value);
-            index++;
+            dfs(result, nums, i+1, value);
             value.remove(value.size() - 1);
         }
     }
