@@ -1,4 +1,4 @@
-package nonlinear.graph.subsets78
+package nonlinear.graph._40_subsets_78
 
 import java.util.*
 import java.util.ArrayDeque
