@@ -1,4 +1,4 @@
-package nonlinear.graph.reconstructitinerary332;
+package nonlinear.graph._41_reconstruct_itinerary_332;
 
 import java.util.ArrayList;
 import java.util.List;
