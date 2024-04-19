@@ -36,8 +36,6 @@ public class Practice1 {
             list.add(i);
             if (!dfs(data, i, list)) {
                 return false;
-            } else {
-
             }
         }
 
