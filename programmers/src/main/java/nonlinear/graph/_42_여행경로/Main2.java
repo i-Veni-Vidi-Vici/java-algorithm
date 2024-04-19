@@ -1,4 +1,4 @@
-package nonlinear.graph.여행경로;
+package nonlinear.graph._42_여행경로;
 
 import java.util.*;
 
