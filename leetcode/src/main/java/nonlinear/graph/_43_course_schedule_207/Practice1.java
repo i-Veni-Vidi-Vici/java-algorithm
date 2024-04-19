@@ -14,9 +14,7 @@ public class Practice1 {
            if(!dfs(data, removed, check)){
                return false;
            } else{
-               for (Integer integer : data.keySet()) {
-                   data.get(integer).remove(removed);
-               }
+
                check.remove(removed);
            }
         }
@@ -47,5 +45,5 @@ public class Practice1 {
         canFinish(3, new int[][]{{0, 2}, {0, 1}, {1, 2}});
     }
 
-    // 168 ms
+    // 168 ms -> 20ms (불필요한 for문제거)
 }
