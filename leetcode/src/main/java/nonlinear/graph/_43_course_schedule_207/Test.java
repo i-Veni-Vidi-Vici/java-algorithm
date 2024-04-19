@@ -1,11 +1,13 @@
-package nonlinear.graph.courseschedule207;
+package nonlinear.graph._43_course_schedule_207;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
-public class Solution1 {
+public class Test {
     public static boolean dfs(Map<Integer, List<Integer>> finishToTakeMap, Integer finish, List<Integer> takes) {
         // 완료해야 하는 노드가 처리해야 하는 노드에 이미 포함되어 있다면
         // 그래프가 순환 구조이므로 false 리턴
@@ -23,6 +25,7 @@ public class Solution1 {
                     return false;
             }
             // 탐색 후에는 처리했으므로 노드 제거
+            finishToTakeMap.remove(finish);
             takes.remove(finish);
         }
         // 코스에 문제가 없으므로 true 리턴
@@ -42,18 +45,14 @@ public class Solution1 {
         // 처리해야 하는 노드를 저장하는 변수
         List<Integer> takes = new ArrayList<>();
         // 완료해야 하는 노드 순회
-        for (Integer finish : finishToTakeMap.keySet()) {
-            // DFS 결과가 false라면 최종 결과도 false로 리턴
-            if (!dfs(finishToTakeMap, finish, takes))
+        Set<Map.Entry<Integer, List<Integer>>> entrySet = new HashSet<>(finishToTakeMap.entrySet());
+        for (Map.Entry<Integer, List<Integer>> entry : entrySet) {
+            if (!dfs(finishToTakeMap, entry.getKey(), takes))
                 return false;
         }
+
         // 모든 코스에 문제가 없으므로 true 리턴
         return true;
     }
-
-    // Time Limit Exceeded
-
-    public static void main(String[] args) {
-        canFinish(7, new int[][]{{1, 0},{0,3},{0,2}, {3,2},{2,5},{4,5} ,{5,6}, {2,4}});
-    }
+    // 25ms
 }

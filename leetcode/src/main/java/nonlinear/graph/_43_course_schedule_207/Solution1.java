@@ -1,20 +1,16 @@
-package nonlinear.graph.courseschedule207;
+package nonlinear.graph._43_course_schedule_207;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution2 {
-    public boolean dfs(Map<Integer, List<Integer>> finishToTakeMap, Integer finish, List<Integer> takes, List<Integer> taken) {
+public class Solution1 {
+    public static boolean dfs(Map<Integer, List<Integer>> finishToTakeMap, Integer finish, List<Integer> takes) {
         // 완료해야 하는 노드가 처리해야 하는 노드에 이미 포함되어 있다면
         // 그래프가 순환 구조이므로 false 리턴
         if (takes.contains(finish))
             return false;
-
-        // 이미 처리한 노드라면 true 리턴
-        if (taken.contains(finish))
-            return true;
 
         // 완료해야 하는 코스에 값이 있다면
         if (finishToTakeMap.containsKey(finish)) {
@@ -23,19 +19,17 @@ public class Solution2 {
             // 처리해야 하는 노드 순회
             for (Integer take : finishToTakeMap.get(finish)) {
                 // 재귀 DFS, 탐색 결과가 false라면 false를 리턴한다.
-                if (!dfs(finishToTakeMap, take, takes, taken))
+                if (!dfs(finishToTakeMap, take, takes))
                     return false;
             }
             // 탐색 후에는 처리했으므로 노드 제거
             takes.remove(finish);
-            // 이미 처리한 노드 추가
-            taken.add(finish);
         }
         // 코스에 문제가 없으므로 true 리턴
         return true;
     }
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+    public static boolean canFinish(int numCourses, int[][] prerequisites) {
         Map<Integer, List<Integer>> finishToTakeMap = new HashMap<>();
         // 완료하기 위해 처리해야 하는 일정을 finish → take 형태의 그래프로 구성
         for (int[] pre : prerequisites) {
@@ -47,16 +41,19 @@ public class Solution2 {
 
         // 처리해야 하는 노드를 저장하는 변수
         List<Integer> takes = new ArrayList<>();
-        // 처리한 노드를 저장하는 변수
-        List<Integer> taken = new ArrayList<>();
         // 완료해야 하는 노드 순회
         for (Integer finish : finishToTakeMap.keySet()) {
             // DFS 결과가 false라면 최종 결과도 false로 리턴
-            if (!dfs(finishToTakeMap, finish, takes, taken))
+            if (!dfs(finishToTakeMap, finish, takes))
                 return false;
         }
         // 모든 코스에 문제가 없으므로 true 리턴
         return true;
     }
-    // 45ms
+
+    // Time Limit Exceeded
+
+    public static void main(String[] args) {
+        canFinish(7, new int[][]{{1, 0},{0,3},{0,2}, {3,2},{2,5},{4,5} ,{5,6}, {2,4}});
+    }
 }

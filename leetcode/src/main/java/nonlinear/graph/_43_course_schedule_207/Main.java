@@ -1,4 +1,4 @@
-package nonlinear.graph.courseschedule207;
+package nonlinear.graph._43_course_schedule_207;
 
 import java.util.ArrayList;
 import java.util.HashMap;
