@@ -1,4 +1,4 @@
-package nonlinear.shortestpath.cheapestflightswithinkstops787;
+package nonlinear.shortestpath._45_cheapest_flights_within_k_stops_787;
 
 import java.util.*;
 
