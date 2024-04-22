@@ -20,19 +20,19 @@ public class Practice2 {
             List<Integer> poll = pq.poll();
             Integer key = poll.get(0);
 
-
             if (!dist.containsKey(key) && poll.get(2) <= k) {
                 if (key == dst) {
                     return poll.get(1);
                 }
 
-                dist.put(key, Arrays.asList(poll.get(1),poll.get(2)));
+                dist.put(key, Arrays.asList(poll.get(1), poll.get(2)));
                 if (data.containsKey(key)) {
 
                     for (Map.Entry<Integer, List<Integer>> entry : data.get(key).entrySet()) {
-                        if ( poll.get(2) < k) {
-                            pq.add(Arrays.asList(entry.getKey(), entry.getValue().get(0) + poll.get(1),
-                                            poll.get(2) + 1));
+                        if (poll.get(2) < k) {
+                            int a = entry.getValue().get(0) + poll.get(1);
+                            int b = poll.get(2) + 1;
+                            pq.add(Arrays.asList(entry.getKey(), a, b));
                         }
                     }
                 }
@@ -45,7 +45,7 @@ public class Practice2 {
 
     public static void main(String[] args) {
         // [[0,1,1],[0,2,5],[1,2,1],[2,3,1]]
-        findCheapestPrice(4, new int[][]{{0,1,1}, {0,2,5}, {1,2,1}, {2,3,1}}, 0, 3, 1);
+        findCheapestPrice(4, new int[][]{{0, 1, 1}, {0, 2, 5}, {1, 2, 1}, {2, 3, 1}}, 0, 3, 1);
     }
-    // error
+    // error ->Time Limit Exceeded
 }
