@@ -1,4 +1,4 @@
-package nonlinear.shortestpath.networkdelaytime743
+package nonlinear.shortestpath._44_network_delay_time_743
 
 import java.util.*
 import java.util.AbstractMap
