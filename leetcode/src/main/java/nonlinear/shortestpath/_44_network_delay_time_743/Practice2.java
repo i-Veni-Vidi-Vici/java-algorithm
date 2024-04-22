@@ -11,7 +11,7 @@ public class Practice2 {
             data.get(time[0]).add(Arrays.asList(time[1], time[2]));
         }
 
-        PriorityQueue<List<Integer>> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.get(0)));
+        PriorityQueue<List<Integer>> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.get(1)));
         pq.add(Arrays.asList(k, 0));
 
         int[] distMin = new int[n];
