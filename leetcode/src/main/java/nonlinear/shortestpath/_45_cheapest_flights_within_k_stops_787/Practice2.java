@@ -20,7 +20,7 @@ public class Practice2 {
             List<Integer> poll = pq.poll();
             Integer key = poll.get(0);
 
-            if (!dist.containsKey(key) && poll.get(2) <= k) {
+            if (poll.get(2) <= k) {
                 if (key == dst) {
                     return poll.get(1);
                 }
