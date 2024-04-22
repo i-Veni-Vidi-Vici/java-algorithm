@@ -15,6 +15,7 @@ public class Practice2_1 {
         pq.add(Arrays.asList(k, 0));
 
         int[] distMin = new int[n];
+        int result = Integer.MIN_VALUE;
         Arrays.fill(distMin, Integer.MAX_VALUE);
 
 
@@ -23,6 +24,7 @@ public class Practice2_1 {
 
             if (distMin[min.get(0) - 1] == Integer.MAX_VALUE) {
                 distMin[min.get(0) - 1] = min.get(1);
+                result = Math.max(result, min.get(1));
                 n--;
 
                 if (data.containsKey(min.get(0))) {
@@ -38,8 +40,8 @@ public class Practice2_1 {
             return -1;
         }
 
-        return Arrays.stream(distMin).max().getAsInt();
+        return result;
     }
 
-    // 50ms
+    // 50ms ->(스트림사용 제거 -> 기본으로 돌아가는 for문에서 result 계산) 47ms
 }
