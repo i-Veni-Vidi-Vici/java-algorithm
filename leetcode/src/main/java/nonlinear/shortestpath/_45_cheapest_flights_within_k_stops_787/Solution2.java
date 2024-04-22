@@ -10,7 +10,7 @@ import java.util.Queue;
 
 // TODO : 최적화 진행
 public class Solution2 {
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+    public static int  findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         // 여행 경로를 출발지 → 도착지 형태의 그래프로 구성
         Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
         for (int[] flight : flights) {
@@ -67,6 +67,11 @@ public class Solution2 {
         }
         // 큐의 모든 값이 비워질 때까지 리턴하지 못했다면 경로가 존재하지 않는다는 얘기이므로 -1 리턴
         return -1;
+    }
+
+    public static void main(String[] args) {
+        // [[0,1,1],[0,2,5],[1,2,1],[2,3,1]]
+        findCheapestPrice(4, new int[][]{{0, 1, 1}, {0, 2, 5}, {1, 2, 1}, {2, 3, 1}}, 0, 3, 1);
     }
 
     // 19ms
