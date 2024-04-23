@@ -10,31 +10,33 @@ public class Practice2 {
             data.get(flight[0]).put(flight[1], Arrays.asList(flight[2], 0));
         }
 
-        PriorityQueue<Map.Entry<Integer, List<Integer>>> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o.getValue().get(0)));
-        pq.add(new AbstractMap.SimpleEntry<>(src, Arrays.asList(0, -1)));
+        PriorityQueue<List<Integer>> pq = new PriorityQueue<>(
+                Comparator.comparingInt(o -> o.get(1)));
+        pq.add(Arrays.asList(src, 0, -1));
 
         Map<Integer, List<Integer>> dist = new HashMap<>();
 
-
         while (!pq.isEmpty()) {
-            Map.Entry<Integer, List<Integer>> polled = pq.poll();
-            int key = polled.getKey();
-            List<Integer> value = polled.getValue();
+            List<Integer> poll = pq.poll();
+            Integer key = poll.get(0);
 
-            if (!dist.containsKey(key) && value.get(1) <= k) {
+            if (poll.get(2) <= k) {
                 if (key == dst) {
-                    return value.get(0);
+                    return poll.get(1);
                 }
 
-                dist.put(key, value);
+                dist.put(key, Arrays.asList(poll.get(1), poll.get(2)));
+                if (data.containsKey(key)) {
 
-                for (Map.Entry<Integer, List<Integer>> entry : data.get(key).entrySet()) {
-                    if (value.get(1) < k) {
-                        pq.add(new AbstractMap.SimpleEntry<>(entry.getKey(),
-                                Arrays.asList(entry.getValue().get(0) + value.get(0),
-                                       value.get(1) + 1)));
+                    for (Map.Entry<Integer, List<Integer>> entry : data.get(key).entrySet()) {
+                        if (poll.get(2) < k) {
+                            int a = entry.getValue().get(0) + poll.get(1);
+                            int b = poll.get(2) + 1;
+                            pq.add(Arrays.asList(entry.getKey(), a, b));
+                        }
                     }
                 }
+
             }
         }
 
@@ -42,8 +44,8 @@ public class Practice2 {
     }
 
     public static void main(String[] args) {
-        // [[4,1,1],[1,2,3],[0,3,2],[0,4,10],[3,1,1],[1,4,3]]
-        findCheapestPrice(5,new int[][]{{4,1,1},{1,2,3},{0,3,2}, {0,4,10}, {3,1,1}, {1,4,3}}, 2,1,0);
+        // [[0,1,1],[0,2,5],[1,2,1],[2,3,1]]
+        findCheapestPrice(4, new int[][]{{0, 1, 1}, {0, 2, 5}, {1, 2, 1}, {2, 3, 1}}, 0, 3, 1);
     }
-    // error
+    // error ->Time Limit Exceeded
 }
