@@ -20,4 +20,5 @@ public class Solution2 {
         // k번째 마지막 값을 정답으로 리턴
         return pq.poll();
     }
+    // 70 ms (Collections.reverseOrder()로 기존 풀이보다 느려짐 )
 }
