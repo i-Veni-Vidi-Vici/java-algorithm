@@ -1,4 +1,4 @@
-package nonlinear.shortestpath.gamemapshortestpath46;
+package nonlinear.shortestpath._46_game_map_shortest_path;
 
 import java.util.*;
 
