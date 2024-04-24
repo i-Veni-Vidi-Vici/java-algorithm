@@ -1,5 +1,6 @@
 package nonlinear.trie._62_implement_trie_208;
 
+// TODO : 트라이 구현
 public class Solution1 {
     // 트라이의 노드
     class TrieNode {
