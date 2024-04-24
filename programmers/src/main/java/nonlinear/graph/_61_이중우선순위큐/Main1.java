@@ -3,7 +3,6 @@ package nonlinear.graph._61_이중우선순위큐;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 public class Main1 {
     public int[] solution(String[] operations) {
@@ -14,7 +13,7 @@ public class Main1 {
             if (s[0].equals("I")) {
                 list.add(Integer.parseInt(s[1]));
             } else {
-                if (list.size() > 0) {
+                if (!list.isEmpty()) {
                     if (s[1].equals("-1")) {
                         list.remove(Collections.min(list));
                     } else if (s[1].equals("1")) {
@@ -37,5 +36,4 @@ public class Main1 {
     //테스트 4 〉	통과 (0.10ms, 65.8MB)
     //테스트 5 〉	통과 (0.16ms, 73.5MB)
     //테스트 6 〉	통과 (0.22ms, 71MB)
-
 }
