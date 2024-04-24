@@ -3,6 +3,8 @@ package nonlinear.trie._63_palindrome_pairs_336;
 import java.util.ArrayList;
 import java.util.List;
 
+// TODO : 브루트 포스로 계산
+
 public class Solution1 {
     public boolean isPalindrome(String s) {
         // 정규식으로 유효한 문자만 추출한 다음 모두 소문자로 변경
