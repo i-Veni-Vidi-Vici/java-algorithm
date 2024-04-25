@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// TODO : 트라이 구현
 public class Solution2 {
     static class TrieNode {
         // 단어 ID를 저장하는 변수
