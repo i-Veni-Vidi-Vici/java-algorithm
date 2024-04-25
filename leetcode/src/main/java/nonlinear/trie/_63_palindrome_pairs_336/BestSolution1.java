@@ -2,6 +2,7 @@ package nonlinear.trie._63_palindrome_pairs_336;
 
 import java.util.*;
 
+// TODO : no tire
 public class BestSolution1 {
 
     public List<List<Integer>> palindromePairs(String[] words) {
