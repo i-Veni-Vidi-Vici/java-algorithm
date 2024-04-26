@@ -1,6 +1,8 @@
 package sort._64_sort_list_148;
 
 
+// TODO : 병합정렬
+
 public class Solution1 {
     public class ListNode {
         int val;

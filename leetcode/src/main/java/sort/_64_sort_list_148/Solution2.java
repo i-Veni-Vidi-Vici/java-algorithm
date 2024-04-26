@@ -1,6 +1,6 @@
 package sort._64_sort_list_148;
 
-
+// TODO : 퀵정렬
 public class Solution2 {
     public class ListNode {
         int val;
