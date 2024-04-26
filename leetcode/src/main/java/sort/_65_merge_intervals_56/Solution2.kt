@@ -1,7 +1,7 @@
-package ch17
+package sort._65_merge_intervals_56
 
+import java.lang.Integer.max
 import java.util.Comparator
-import kotlin.math.max
 
 class Solution2 {
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
