@@ -1,4 +1,4 @@
-package sort
+package sort._69_sort_colors_75
 
 class Solution2 {
     fun sortColors(nums: IntArray) {
