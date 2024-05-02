@@ -1,11 +1,12 @@
 package sort._70_binary_search_704;
 
-public class Solution1 {
+// TODO : 재귀 풀이
+public class Solution2 {
     public int binarySearch(int[] nums, int target, int left, int right) {
         // 왼쪽 포인터가 오른쪽 포인터보다 작거나 같다면 계속 탐색
         if (left <= right) {
-            // 중앙의 위치 계산
-            int mid = (left + right) / 2;
+            // 중앙의 위치 계산 개선
+            int mid = left + (right - left) / 2;
             // 만약 중앙값이 타깃보다 작으면, 포인터를 우측으로 옮겨서 다시 탐색
             if (nums[mid] < target)
                 return binarySearch(nums, target, mid + 1, right);
