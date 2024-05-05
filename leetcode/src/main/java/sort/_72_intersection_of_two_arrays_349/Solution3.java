@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+// TODO : 투 포인터로 일치 여부 판별
+// 2번과 시간복잡도는 동일
 public class Solution3 {
     public int[] intersection(int[] nums1, int[] nums2) {
         // 결과 변수로 중복을 허용하지 않는 집합 자료형 선언
