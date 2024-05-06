@@ -1,6 +1,8 @@
 package sort._73_two_sum_2_input_array_is_sorted_167;
 
 public class Solution2 {
+
+    // TODO : 이진검색
     public int[] twoSum(int[] numbers, int target) {
         // 배열 순회
         for (int i = 0; i < numbers.length; i++) {
