@@ -2,6 +2,7 @@ package sort._73_two_sum_2_input_array_is_sorted_167;
 
 import java.util.Arrays;
 
+// TODO : 이진 검색 메서드 사용
 public class Solution3 {
     public int[] twoSum(int[] numbers, int target) {
         // 배열 순회
