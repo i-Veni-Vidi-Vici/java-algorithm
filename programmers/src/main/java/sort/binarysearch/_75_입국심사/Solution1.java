@@ -2,6 +2,7 @@ package sort.binarysearch._75_입국심사;
 
 import java.util.Arrays;
 
+// TODO : 이진 검색
 public class Solution1 {
     public static long solution(int n, int[] times) {
         long answer = 0;
