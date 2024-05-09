@@ -1,5 +1,6 @@
 package bitmanipulation._78_sum_of_two_integers_371;
 
+// TODO : 간소한 구현
 public class Solution2 {
     public int getSum(int a, int b) {
         // b 값이 0이 될 때까지 진행
