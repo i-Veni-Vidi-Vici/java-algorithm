@@ -1,5 +1,6 @@
 package bitmanipulation._79_utf_8_validation_393;
 
+// TODO : 첫 바이트 기준으로 판별
 public class Solution1 {
     public boolean check(int[] data, int start, int size) {
         // size만큼 이동하면서 각 바이트 10으로 시작여부 확인
