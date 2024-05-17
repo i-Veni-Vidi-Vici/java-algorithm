@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// TODO : 우선순위 큐
 public class Solution1 {
     public static int leastInterval(char[] tasks, int n) {
         // 문자단위 빈도수 계산, 영어 알파벳이므로 26개 초기화
