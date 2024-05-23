@@ -5,29 +5,25 @@ import java.util.Arrays;
 public class Main {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
+        Arrays.sort(s);
         int count =0;
+        int index =0;
         for (int i = 0; i < g.length; i++) {
-            for (int j = 0; j <s.length; j++) {
-                if (s[j] == 0) {
-                    continue;
-                }
-                if (g[i] > s[j]) {
-                    g[i] -= s[j];
-                    s[j] = 0;
-                } else if (g[i] <= s[j]) {
-                    s[j] -= g[i];
-                    g[i] = 0;
+            for (int j = index; j <s.length ; j++) {
+                if (g[i] <= s[j]) {
                     count++;
+                    index ++;
                     break;
+                } else if (g[i] > s[j]) {
+                    index ++;
                 }
             }
-
+            if (index == s.length) {
+                break;
+            }
         }
 
-        if (count > s.length) {
-            return s.length;
-        }
         return count;
     }
-    // modifying - error 쿠키 한번사용하면 끝
+    // 8~9ms
 }
