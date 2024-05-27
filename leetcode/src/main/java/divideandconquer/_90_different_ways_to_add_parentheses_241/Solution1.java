@@ -5,7 +5,7 @@ import java.util.List;
 
 // TODO : 분할정복
 public class Solution1 {
-    public List<Integer> diffWaysToCompute(String expression) {
+    public static List<Integer> diffWaysToCompute(String expression) {
         List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < expression.length(); i++) {
@@ -36,5 +36,8 @@ public class Solution1 {
         return result;
     }
 
+    public static void main(String[] args) {
+        diffWaysToCompute("2*3-4*5");
+    }
     // 2ms
 }
