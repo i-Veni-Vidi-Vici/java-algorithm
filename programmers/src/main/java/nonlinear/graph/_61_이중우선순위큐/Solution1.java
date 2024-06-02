@@ -4,8 +4,9 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+// TODO : 우선순위 큐 사용
 public class Solution1 {
-    public int[] solution(String[] operations) {
+    public static int[] solution(String[] operations) {
         // 우선순위 큐 선언, 자바 기본은 최소 힙이므로 최대 힙으로 정렬 지정
         Queue<Integer> minHeap = new PriorityQueue<>();
         Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
@@ -38,6 +39,10 @@ public class Solution1 {
         return new int[]{
                 (maxValue == null) ? 0 : maxValue,
                 (minValue == null) ? 0 : minValue};
+    }
+
+    public static void main(String[] args) {
+        solution(new String[]{"I 1", "I 2", "I 3", "D 1", "D -1", "D 1", "D -1"});
     }
 
     // 정확성  테스트
