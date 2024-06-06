@@ -77,6 +77,7 @@ public class Solution2 {
             // 단어의 문자를 차례대로 반복하며 처리
             for (int j = 0; j < word.length(); j++) {
                 // (3) 탐색 중에 단어 ID가 있고(그림에서 w), 나머지 문자가 팰린드롬인 경우
+                // (2)와 반대인 경우임
                 if (cur.wordId >= 0 && isPalindrome(word, j, word.length() - 1)) {
                     result.add(Arrays.asList(new Integer[]{index, cur.wordId}));
                 }
@@ -87,10 +88,12 @@ public class Solution2 {
                 cur = cur.children[word.charAt(j) - 'a'];
             }
             // (1) 끝까지 탐색했을 때 단어 ID가 있는 경우(그림에서 w)
+            
             if (cur.wordId >= 0 && cur.wordId != index) {
                 result.add(Arrays.asList(new Integer[]{index, cur.wordId}));
             }
             // (2) 끝까지 탐색했을 때 팰린드롬 단어 ID가 있는 경우(그림에서 p)
+            // (3) 과 반대인 경우임
             for (int palindromeWordId : cur.palindromeWordIds) {
                 result.add(Arrays.asList(new Integer[]{index, palindromeWordId}));
             }
