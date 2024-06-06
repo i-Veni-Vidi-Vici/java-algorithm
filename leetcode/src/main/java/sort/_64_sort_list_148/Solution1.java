@@ -1,21 +1,33 @@
 package sort._64_sort_list_148;
 
-
 // TODO : 병합정렬
 
 public class Solution1 {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 두 노드 중 한쪽이 널이면 아닌 노드를 리턴
-        if (l1 == null) return l2;
-        if (l2 == null) return l1;
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
 
         // 앞에 노드가 값이 더 크다면 스왑 진행
         if (l1.val > l2.val) {
@@ -29,9 +41,11 @@ public class Solution1 {
         return l1;
     }
 
-    public ListNode sortList(ListNode head) {
+    public static ListNode sortList(ListNode head) {
         // 널인 노드까지 분할되면 아무런 처리 없이 리턴
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null) {
+            return head;
+        }
 
         // 러너 기법 활용, 빠른 노드가 끝까지 갈 때 느린(slow) 노드는 중간까지 이동한다.
         ListNode half = null, slow = head, fast = head;
@@ -49,6 +63,10 @@ public class Solution1 {
 
         // 정복(conquer)을 시작하고, 결과를 정답으로 리턴
         return mergeTwoLists(l1, l2);
+    }
+
+    public static void main(String[] args) {
+        sortList(new ListNode(-1, new ListNode(5, new ListNode(3, new ListNode(4, new ListNode(0))))));
     }
 
     // 14ms
