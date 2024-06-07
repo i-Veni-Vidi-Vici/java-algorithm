@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+// TODO : 정렬하여 병합
+
 public class Solution1 {
     public int[][] merge(int[][] intervals) {
         List<int[]> merged = new ArrayList<>();
