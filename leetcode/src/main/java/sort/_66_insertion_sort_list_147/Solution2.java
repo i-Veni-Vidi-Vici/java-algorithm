@@ -1,6 +1,6 @@
 package sort._66_insertion_sort_list_147;
 
-
+// TODO : 개선된 삽입정렬
 public class Solution2 {
     public static class ListNode {
         int val;
