@@ -1,5 +1,6 @@
 package sort._66_insertion_sort_list_147;
 
+// TODO : 삽입정렬
 public class Solution1 {
     public static class ListNode {
         int val;
