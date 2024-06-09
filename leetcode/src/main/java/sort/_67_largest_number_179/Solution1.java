@@ -3,6 +3,8 @@ package sort._67_largest_number_179;
 import java.math.BigInteger;
 import java.util.Arrays;
 
+// TODO : 삽입정렬
+
 public class Solution1 {    public boolean toSwap(int n1, int n2) {
     // a + b와 b + a를 비교해 후자가 크면 스왑이 필요하므로 true 리턴
     return new BigInteger(String.valueOf(n1) + n2).compareTo(new BigInteger(String.valueOf(n2) + n1))<0;
