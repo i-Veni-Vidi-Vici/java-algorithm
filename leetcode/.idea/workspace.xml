@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a4c0aa8-c0a1-43ed-9a60-25473f74fcc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/_68_valid_anagram_242/Practice1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/_68_valid_anagram_242/Practice2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bl56osBGCV1dW8WBHXVYQRoPAI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main1_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Practice1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Practice2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linear.array.arraypartition561.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.array.besttimetobuyandsellstock121.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.array.threesum15.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linear.array.trappingrainwater42.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.deque.designcirculardeque641.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.hashtable.designhashmap706.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linear.linkedlist.addtwonumbers2.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.linkedlist.palindromelinkedlist234.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linear.linkedlist.swapnodesinpairs24.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linear.priorityqueue.kcloestpointsorigin973.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.priorityqueue.mergeksortedlists23.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.linear.stack.validparenthese20.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.nonlinear.tree.serializeanddeserializebinarytree297.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.string.manipulation.groupanagrams.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.leetcode [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/spharos-wms-oopssinsa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sort._64_sort_list_148" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\java-algorithm\leetcode\src\main\java\sort\_65_merge_intervals_56" />
+      <recent name="C:\study\java-algorithm\leetcode\src\main\java\nonlinear\tree" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="sort._69_sort_colors_75" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nonlinear.shortestpath.networkdelaytime743" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.linear.deque.designcirculardeque641.Main">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linear.stack.dailytemperatures739.Test" />
+      <module name="leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linear.stack.dailytemperatures739.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linear.deque.designcirculardeque641.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linear.deque.designcirculardeque641.Main" />
+      <module name="leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linear.deque.designcirculardeque641.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linear.hashtable.designhashmap706.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linear.hashtable.designhashmap706.Main" />
+      <module name="leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linear.hashtable.designhashmap706.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linear.linkedlist.palindromelinkedlist234.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linear.linkedlist.palindromelinkedlist234.Test" />
+      <module name="leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linear.linkedlist.palindromelinkedlist234.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nonlinear.tree.serializeanddeserializebinarytree297.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nonlinear.tree.serializeanddeserializebinarytree297.Test" />
+      <module name="leetcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nonlinear.tree.serializeanddeserializebinarytree297.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.linear.deque.designcirculardeque641.Main" />
+        <item itemvalue="Application.nonlinear.tree.serializeanddeserializebinarytree297.Test" />
+        <item itemvalue="Application.linear.hashtable.designhashmap706.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.linear.linkedlist.palindromelinkedlist234.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a4c0aa8-c0a1-43ed-9a60-25473f74fcc0" name="Changes" comment="" />
+      <created>1706776653220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706776653220</updated>
+      <workItem from="1706776654431" duration="8571000" />
+      <workItem from="1706860778895" duration="8425000" />
+      <workItem from="1706946236076" duration="7273000" />
+      <workItem from="1707029904139" duration="4074000" />
+      <workItem from="1707120720590" duration="4373000" />
+      <workItem from="1707209702131" duration="4950000" />
+      <workItem from="1707216178160" duration="2062000" />
+      <workItem from="1707290693686" duration="12685000" />
+      <workItem from="1707379372962" duration="4746000" />
+      <workItem from="1707446290256" duration="1810000" />
+      <workItem from="1707533363702" duration="2466000" />
+      <workItem from="1707634169320" duration="3792000" />
+      <workItem from="1707725654639" duration="2540000" />
+      <workItem from="1707806515369" duration="1579000" />
+      <workItem from="1707901869888" duration="6886000" />
+      <workItem from="1707986290368" duration="5154000" />
+      <workItem from="1708007097640" duration="3762000" />
+      <workItem from="1708234637142" duration="3542000" />
+      <workItem from="1708322597719" duration="2149000" />
+      <workItem from="1708324762217" duration="7089000" />
+      <workItem from="1708423258166" duration="3871000" />
+      <workItem from="1708492348529" duration="2272000" />
+      <workItem from="1708585040694" duration="3144000" />
+      <workItem from="1708665012945" duration="1507000" />
+      <workItem from="1708756181202" duration="1060000" />
+      <workItem from="1708840810917" duration="5059000" />
+      <workItem from="1708926362269" duration="5742000" />
+      <workItem from="1708933439803" duration="602000" />
+      <workItem from="1709017569111" duration="4533000" />
+      <workItem from="1709113740256" duration="15000" />
+      <workItem from="1709113907997" duration="41000" />
+      <workItem from="1709114368504" duration="28000" />
+      <workItem from="1709114477737" duration="1000" />
+      <workItem from="1709115503622" duration="606000" />
+      <workItem from="1709199521296" duration="2834000" />
+      <workItem from="1709268270629" duration="3671000" />
+      <workItem from="1709354770226" duration="3148000" />
+      <workItem from="1709427200769" duration="3036000" />
+      <workItem from="1709726688909" duration="960000" />
+      <workItem from="1709812531516" duration="2033000" />
+      <workItem from="1709814582631" duration="71000" />
+      <workItem from="1709899161364" duration="2924000" />
+      <workItem from="1709986989842" duration="7006000" />
+      <workItem from="1710060152133" duration="5448000" />
+      <workItem from="1710153937937" duration="2185000" />
+      <workItem from="1710157926326" duration="752000" />
+      <workItem from="1710159662871" duration="31000" />
+      <workItem from="1710160150042" duration="23000" />
+      <workItem from="1710243623294" duration="2911000" />
+      <workItem from="1710416503513" duration="3917000" />
+      <workItem from="1710429462369" duration="68000" />
+      <workItem from="1710503190733" duration="119000" />
+      <workItem from="1710503318642" duration="973000" />
+      <workItem from="1710550799145" duration="2252000" />
+      <workItem from="1710637889581" duration="2490000" />
+      <workItem from="1710762934451" duration="817000" />
+      <workItem from="1710849032299" duration="2973000" />
+      <workItem from="1710935918367" duration="1300000" />
+      <workItem from="1711023817454" duration="1922000" />
+      <workItem from="1711109442238" duration="1495000" />
+      <workItem from="1711154391953" duration="3350000" />
+      <workItem from="1711244301822" duration="4147000" />
+      <workItem from="1711369116596" duration="3007000" />
+      <workItem from="1711445452220" duration="2467000" />
+      <workItem from="1711540475046" duration="4728000" />
+      <workItem from="1711633280348" duration="811000" />
+      <workItem from="1711714304148" duration="2732000" />
+      <workItem from="1711766422130" duration="2361000" />
+      <workItem from="1711858775879" duration="3297000" />
+      <workItem from="1711971128257" duration="3616000" />
+      <workItem from="1712143682450" duration="3533000" />
+      <workItem from="1712229846089" duration="2206000" />
+      <workItem from="1712317234078" duration="1297000" />
+      <workItem from="1712372147122" duration="2487000" />
+      <workItem from="1712458470387" duration="1620000" />
+      <workItem from="1712464374532" duration="987000" />
+      <workItem from="1712465407469" duration="58000" />
+      <workItem from="1712465515505" duration="200000" />
+      <workItem from="1712551980643" duration="4027000" />
+      <workItem from="1712664409218" duration="1204000" />
+      <workItem from="1712834999974" duration="2069000" />
+      <workItem from="1712970560411" duration="4470000" />
+      <workItem from="1713064839383" duration="338000" />
+      <workItem from="1713156162538" duration="3014000" />
+      <workItem from="1713577642870" duration="1968000" />
+      <workItem from="1713666978985" duration="1058000" />
+      <workItem from="1713784531540" duration="3520000" />
+      <workItem from="1713788076410" duration="34000" />
+      <workItem from="1713872365368" duration="735000" />
+      <workItem from="1714107780102" duration="1797000" />
+      <workItem from="1714169995891" duration="2958000" />
+      <workItem from="1714172978341" duration="79000" />
+      <workItem from="1714268481491" duration="2876000" />
+      <workItem from="1714352867824" duration="3965000" />
+      <workItem from="1714528724862" duration="1216000" />
+      <workItem from="1714787056393" duration="406000" />
+      <workItem from="1714869184919" duration="797000" />
+      <workItem from="1714958755917" duration="157000" />
+      <workItem from="1715328702610" duration="3929000" />
+      <workItem from="1715394462651" duration="1916000" />
+      <workItem from="1715483121729" duration="2232000" />
+      <workItem from="1715575663973" duration="2324000" />
+      <workItem from="1715734663517" duration="2273000" />
+      <workItem from="1715907065001" duration="6563000" />
+      <workItem from="1716006503344" duration="2276000" />
+      <workItem from="1716529577732" duration="2429000" />
+      <workItem from="1716605278872" duration="763000" />
+      <workItem from="1716690014872" duration="767000" />
+      <workItem from="1717152270247" duration="360000" />
+      <workItem from="1717201034165" duration="3471000" />
+      <workItem from="1717292521599" duration="7000" />
+      <workItem from="1717393439526" duration="2869000" />
+      <workItem from="1717641537781" duration="3538000" />
+      <workItem from="1717730822857" duration="2345000" />
+      <workItem from="1717817967783" duration="3935000" />
+      <workItem from="1717903209958" duration="2355000" />
+      <workItem from="1718025111748" duration="622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/trappingrainwater42/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/trappingrainwater42/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/trappingrainwater42/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/threesum15/Main1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/threesum15/Main1_1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/array/besttimetobuyandsellstock121/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/linkedlist/addtwonumbers2/Solution2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/stack/validparenthese20/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/stack/validparenthese20/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/diameterofbinarytree543/Main1.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/mergetwobinarytrees617/Main1.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Practice2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Practice2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Solution2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Solution2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/stack/implementqueueusingstacks232/Solution1.java</url>
+          <line>15</line>
+          <properties class="linear.stack.implementqueueusingstacks232.Solution1" method="pop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/stack/implementqueueusingstacks232/Solution1.java</url>
+          <line>10</line>
+          <properties class="linear.stack.implementqueueusingstacks232.Solution1" method="push">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/stack/implementqueueusingstacks232/Solution1.java</url>
+          <line>22</line>
+          <properties class="linear.stack.implementqueueusingstacks232.Solution1" method="peek">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/deque/designcirculardeque641/Main.java</url>
+          <line>95</line>
+          <properties class="linear.deque.designcirculardeque641.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/priorityqueue/mergeksortedlists23/Main.java</url>
+          <line>22</line>
+          <properties class="linear.priorityqueue.mergeksortedlists23.Main" method="mergeKLists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/priorityqueue/kcloestpointsorigin973/Main.java</url>
+          <line>7</line>
+          <properties class="linear.priorityqueue.kcloestpointsorigin973.Main" method="kClosest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/linear/hashtable/longestsubstringwithoutrepeatingcharacters3/Solution1.java</url>
+          <line>5</line>
+          <properties class="linear.hashtable.longestsubstringwithoutrepeatingcharacters3.Solution1" method="lengthOfLongestSubstring">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/permutations46/Solution1.java</url>
+          <line>8</line>
+          <properties class="nonlinear.graph.permutations46.Solution1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/combinatoins77/Main.java</url>
+          <line>20</line>
+          <properties class="nonlinear.graph.combinatoins77.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/combinatoins77/Main.java</url>
+          <line>6</line>
+          <properties class="nonlinear.graph.combinatoins77.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/permutations46/Main2.java</url>
+          <line>6</line>
+          <properties class="nonlinear.graph.permutations46.Main2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/reconstructitinerary332/Solution1.java</url>
+          <line>11</line>
+          <properties class="nonlinear.graph.reconstructitinerary332.Solution1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/reconstructitinerary332/Solution1.java</url>
+          <line>21</line>
+          <properties class="nonlinear.graph.reconstructitinerary332.Solution1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/reconstructitinerary332/Solution2.java</url>
+          <line>12</line>
+          <properties class="nonlinear.graph.reconstructitinerary332.Solution2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/graph/courseschedule207/Main.java</url>
+          <line>8</line>
+          <properties class="nonlinear.graph.courseschedule207.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/mergetwobinarytrees617/Main.java</url>
+          <line>24</line>
+          <properties class="nonlinear.tree.mergetwobinarytrees617.Main" method="mergeTrees">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/mergetwobinarytrees617/Solution1.java</url>
+          <line>23</line>
+          <properties class="nonlinear.tree.mergetwobinarytrees617.Solution1" method="mergeTrees">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/serializeanddeserializebinarytree297/Main.java</url>
+          <line>57</line>
+          <properties class="nonlinear.tree.serializeanddeserializebinarytree297.Main" method="deserialize">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/serializeanddeserializebinarytree297/Main.java</url>
+          <line>17</line>
+          <properties class="nonlinear.tree.serializeanddeserializebinarytree297.Main" method="serialize">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/bst/rangesumofbst938/Solution1.java</url>
+          <line>25</line>
+          <properties class="nonlinear.tree.bst.rangesumofbst938.Solution1" method="rangeSumBST">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/bst/rangesumofbst938/Solution2.java</url>
+          <line>16</line>
+          <properties class="nonlinear.tree.bst.rangesumofbst938.Solution2" method="rangeSumBST">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/constructbinarytreefrompreorderandinordertraversal105/Main.java</url>
+          <line>22</line>
+          <properties class="nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105.Main" method="buildTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/diameterofbinarytree543/Main1.java</url>
+          <line>36</line>
+          <properties class="nonlinear.tree.diameterofbinarytree543.Main1" method="diameterOfBinaryTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/diameterofbinarytree543/Main1.java</url>
+          <line>23</line>
+          <properties class="nonlinear.tree.diameterofbinarytree543.Main1" method="dfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/serializeanddeserializebinarytree297/Main2.java</url>
+          <line>15</line>
+          <properties class="nonlinear.tree.serializeanddeserializebinarytree297.Main2" method="serialize">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/serializeanddeserializebinarytree297/Main2.java</url>
+          <line>43</line>
+          <properties class="nonlinear.tree.serializeanddeserializebinarytree297.Main2" method="deserialize">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/constructbinarytreefrompreorderandinordertraversal105/Main1_1.java</url>
+          <line>16</line>
+          <properties class="nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105.Main1_1" method="buildTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/tree/constructbinarytreefrompreorderandinordertraversal105/Solution1.java</url>
+          <line>23</line>
+          <properties class="nonlinear.tree.constructbinarytreefrompreorderandinordertraversal105.Solution1" method="dfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Practice2.java</url>
+          <line>5</line>
+          <properties class="nonlinear.shortestpath._45_cheapest_flights_within_k_stops_787.Practice2" method="findCheapestPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/nonlinear/shortestpath/_45_cheapest_flights_within_k_stops_787/Solution2.java</url>
+          <line>12</line>
+          <properties class="nonlinear.shortestpath._45_cheapest_flights_within_k_stops_787.Solution2" method="findCheapestPrice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/_66_insertion_sort_list_147/Main.java</url>
+          <line>10</line>
+          <properties class="sort._66_insertion_sort_list_147.Main" method="insertionSortList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/_67_largest_number_179/Main1.java</url>
+          <line>5</line>
+          <properties class="sort._67_largest_number_179.Main1" method="largestNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bitmanipulation/_79_utf_8_validation_393/Main1.java</url>
+          <line>3</line>
+          <properties class="bitmanipulation._79_utf_8_validation_393.Main1" method="validUtf8">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/slidingwindow/_82_minimum_window_substring_76/Solution2.java</url>
+          <line>7</line>
+          <properties class="slidingwindow._82_minimum_window_substring_76.Solution2" method="minWindow">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/greedy/_86_task_scheduler_621/Main.java</url>
+          <line>8</line>
+          <properties class="greedy._86_task_scheduler_621.Main" method="leastInterval">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/greedy/_86_task_scheduler_621/Main.java</url>
+          <line>45</line>
+          <properties class="greedy._86_task_scheduler_621.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/greedy/_86_task_scheduler_621/Solution1.java</url>
+          <line>9</line>
+          <properties class="greedy._86_task_scheduler_621.Solution1" method="leastInterval">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/divideandconquer/_89_majority_element_169/Solution2.java</url>
+          <line>4</line>
+          <properties class="divideandconquer._89_majority_element_169.Solution2" method="majorityElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/_64_sort_list_148/Solution1.java</url>
+          <line>43</line>
+          <properties class="sort._64_sort_list_148.Solution1" method="sortList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/_64_sort_list_148/Solution1.java</url>
+          <line>22</line>
+          <properties class="sort._64_sort_list_148.Solution1" method="mergeTwoLists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/_66_insertion_sort_list_147/Practice1.java</url>
+          <line>20</line>
+          <properties class="sort._66_insertion_sort_list_147.Practice1" method="insertionSortList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="head.next" />
+        <watch expression="head.next" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
