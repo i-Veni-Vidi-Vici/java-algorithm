@@ -8,7 +8,7 @@ public class Practice1 {
         char[] value = t.toCharArray();
         Arrays.sort(origin);
         Arrays.sort(value);
-        return Arrays.toString(origin).equals(Arrays.toString(value));
+        return new String(origin).equals(new String(value));
     }
-    // 9ms
+    // 9ms -> 2ms, Arrays.toString()-> new String()
 }
