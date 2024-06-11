@@ -1,7 +1,7 @@
 package sort._69_sort_colors_75;
 
 
-// TODO : 네덜랑드 국기 문제
+// TODO : 네덜란드 국기 문제
 public class Solution1 {
     public void sortColors(int[] nums) {
         // red와 blue는 양쪽 끝 포인터이며, white는 중앙에서 움직이는 포인터다.
