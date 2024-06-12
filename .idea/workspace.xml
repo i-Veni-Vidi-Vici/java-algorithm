@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3054ec26-a749-4da1-b455-51e275376526" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/sort/_69_sort_colors_75/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.leetcode [:Practice1.main()].executor": "Run",
     "Gradle.leetcode [:Solution1.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -95,7 +97,7 @@
       <workItem from="1717469156492" duration="482000" />
       <workItem from="1717469656347" duration="585000" />
       <workItem from="1717470266058" duration="11057000" />
-      <workItem from="1718064974992" duration="1571000" />
+      <workItem from="1718064974992" duration="7226000" />
     </task>
     <servers />
   </component>
