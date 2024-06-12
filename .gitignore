@@ -1,5 +1,5 @@
 # .idea 폴더
-*.idea
+.idea/
 
 
 # Compiled class file
