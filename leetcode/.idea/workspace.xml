@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a4c0aa8-c0a1-43ed-9a60-25473f74fcc0" name="Changes" comment="" />
+    <list default="true" id="5a4c0aa8-c0a1-43ed-9a60-25473f74fcc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/_74_search_a_2d_matrix_2_240/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -299,7 +302,8 @@
       <workItem from="1717903209958" duration="2355000" />
       <workItem from="1718025111748" duration="1051000" />
       <workItem from="1718339890595" duration="1842000" />
-      <workItem from="1718426279967" duration="455000" />
+      <workItem from="1718426279967" duration="1030000" />
+      <workItem from="1718500062509" duration="852000" />
     </task>
     <servers />
   </component>
