@@ -52,7 +52,8 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        minWindow("ADOBECODEBANC", "ABC");
+//        minWindow("ADOBECODEBANC", "ABC");
+        minWindow("a", "aa");
     }
     // 15ms
 }

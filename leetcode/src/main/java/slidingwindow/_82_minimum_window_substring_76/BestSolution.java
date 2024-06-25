@@ -3,7 +3,7 @@ package slidingwindow._82_minimum_window_substring_76;
 
 // TODO : int[] 자료형 사용
 public class BestSolution {
-    public String minWindow(String s, String t) {
+    public  static String minWindow(String s, String t) {
         int tElements[] = new int[123]; //to track a-z & A-Z
         for(char c: t.toCharArray()){
             tElements[c]++; //count frequency of letters
@@ -32,6 +32,10 @@ public class BestSolution {
         }
         if(minLength == Integer.MAX_VALUE) return new String();
         return s.substring(start, start+minLength);
+    }
+
+    public static void main(String[] args) {
+        minWindow("ADOBECODEBANC", "ABC");
     }
 
     // 2ms
