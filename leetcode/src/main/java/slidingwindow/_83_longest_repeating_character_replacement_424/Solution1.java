@@ -6,7 +6,7 @@ import java.util.Map;
 
 // TODO : 투 포인터 & 슬라이딩 윈도우
 public class Solution1 {
-    public int characterReplacement(String s, int k) {
+    public  static int characterReplacement(String s, int k) {
         int left = 0;
         // 문자 개수를 저장하는 맵
         Map<Character, Integer> counts = new HashMap<>();
@@ -28,6 +28,10 @@ public class Solution1 {
         // 오른쪽 포인터는 끝까지 이동했으므로 문자열 길이와 동일,
         // 여기에 왼쪽 포인터 위치를 뺀 값을 정답으로 리턴
         return s.length() - left;
+    }
+
+    public static void main(String[] args) {
+        characterReplacement("ABCBA", 1);
     }
 
     // 55ms
