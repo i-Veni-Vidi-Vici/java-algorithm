@@ -3,7 +3,7 @@ package divideandconquer._89_majority_element_169;
 import java.util.Arrays;
 
 public class Practice1 {
-    public int majorityElement(int[] nums) {
+    public static int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int prev = nums[0];
         int count =0;
@@ -11,6 +11,8 @@ public class Practice1 {
 
             if (prev == num) {
                 count++;
+            } else {    // else 제거해도 됨
+                count=1;
             }
             if (count > nums.length / 2) {
                 return prev;
@@ -21,5 +23,8 @@ public class Practice1 {
         return -1;
     }
 
-    // 6ms
+    public static void main(String[] args) {
+        majorityElement(new int[]{3,2,3});
+    }
+    // 4ms
 }
