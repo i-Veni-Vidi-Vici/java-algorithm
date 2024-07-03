@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // TODO : 분할정복
+// fail count : 1
 public class Solution1 {
     public static List<Integer> diffWaysToCompute(String expression) {
         List<Integer> result = new ArrayList<>();
