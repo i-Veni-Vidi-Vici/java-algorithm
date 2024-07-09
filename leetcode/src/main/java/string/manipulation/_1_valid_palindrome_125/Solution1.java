@@ -1,4 +1,4 @@
-package string.manipulation.validpalindrome125;
+package string.manipulation._1_valid_palindrome_125;
 
 public class Solution1 {
     public boolean isPalindrome(String s) {
