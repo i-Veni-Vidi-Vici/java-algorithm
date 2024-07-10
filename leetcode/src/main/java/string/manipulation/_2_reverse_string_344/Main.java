@@ -1,4 +1,4 @@
-package string.manipulation.reversestring344;
+package string.manipulation._2_reverse_string_344;
 
 public class Main {
     public void reverseString(char[] s) {
