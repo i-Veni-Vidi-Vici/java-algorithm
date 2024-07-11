@@ -1,4 +1,4 @@
-package string.manipulation.reorderlogfiles937
+package string.manipulation._03_reorder_log_files_937
 
 class Solution2 {
     fun reorderLogFiles(logs: Array<String>): Array<String> {

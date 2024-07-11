@@ -1,9 +1,7 @@
-package string.manipulation.reorderlogfiles937;
+package string.manipulation._03_reorder_log_files_937;
 
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
