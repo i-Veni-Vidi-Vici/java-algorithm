@@ -1,4 +1,4 @@
-package string.manipulation.mostcommonword819;
+package string.manipulation._4_mostcommonword_819;
 
 import java.util.Arrays;
 import java.util.Collections;

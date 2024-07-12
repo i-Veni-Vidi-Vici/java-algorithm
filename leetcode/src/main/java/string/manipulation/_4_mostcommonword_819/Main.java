@@ -1,24 +1,21 @@
-package string.manipulation.mostcommonword819;
+package string.manipulation._4_mostcommonword_819;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
-public class Main2 {
+public class Main {
     public String mostCommonWord(String paragraph, String[] banned) {
-        String[] words = paragraph.replaceAll("[^a-zA-Z]+", " ").toLowerCase().split(" ");
+        String[] words = paragraph.replaceAll("[^a-zA-Z\s]", " ").toLowerCase().split(" ");
         Map<String, Integer> wordCount = new HashMap<>();
 
-//        List<String> ban = Arrays.asList(banned); //11~12ms, contains: O(n)
-//        List<String> ban = List.of(banned); //11~12ms, contains: O(n)
-        Set<String> ban = new HashSet<>(Arrays.asList(banned)); // 10ms 11ms, contains: O(1)
-
         for (String word : words) {
-            if (!ban.contains(word)) {
+            if (!word.isBlank()) {
                 wordCount.put(word, wordCount.getOrDefault(word, 1) + 1);
             }
+        }
+
+        for (String s : banned) {
+            wordCount.remove(s);
         }
 
         int max = 0;
@@ -33,5 +30,5 @@ public class Main2 {
         return value;
     }
 
-// 10~11ms, remove 제거로 큰 차이는 없음
+    // 15ms
 }

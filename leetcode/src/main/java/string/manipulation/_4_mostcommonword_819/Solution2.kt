@@ -1,4 +1,4 @@
-package string.manipulation.mostcommonword819
+package string.manipulation._4_mostcommonword_819
 
 class Solution2 {
     fun mostCommonWord(paragraph: String, banned: Array<String>): String {
