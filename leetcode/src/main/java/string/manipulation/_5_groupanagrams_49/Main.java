@@ -1,4 +1,4 @@
-package string.manipulation.groupanagrams49;
+package string.manipulation._5_groupanagrams_49;
 
 import java.util.ArrayList;
 import java.util.Arrays;

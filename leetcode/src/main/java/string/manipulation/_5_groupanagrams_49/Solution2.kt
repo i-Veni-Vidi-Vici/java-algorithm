@@ -1,4 +1,4 @@
-package string.manipulation.groupanagrams49
+package string.manipulation._5_groupanagrams_49
 
 class Solution2 {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
