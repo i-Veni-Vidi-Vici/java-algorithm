@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// TODO : 비교
 public class Solution1 {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> results = new HashMap<>();
