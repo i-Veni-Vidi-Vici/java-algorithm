@@ -1,5 +1,7 @@
 package string.manipulation._6_longest_palindrom_substring_5;
 
+
+// TODO : 확장 팰린드롬
 public class Solution1 {
     int left, maxLen;
 
