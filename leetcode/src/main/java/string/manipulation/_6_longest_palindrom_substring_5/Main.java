@@ -1,4 +1,4 @@
-package string.manipulation.longestpalindromicsubstring5;
+package string.manipulation._6_longest_palindrom_substring_5;
 
 import java.util.Arrays;
 
