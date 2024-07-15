@@ -1,4 +1,4 @@
-package linear.array.twosum1;
+package linear.array._07_two_sum_1;
 
 import java.util.HashMap;
 import java.util.Map;
