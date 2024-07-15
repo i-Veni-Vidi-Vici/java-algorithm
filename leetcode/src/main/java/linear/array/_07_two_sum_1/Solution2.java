@@ -3,6 +3,8 @@ package linear.array._07_two_sum_1;
 import java.util.HashMap;
 import java.util.Map;
 
+// TODO : for문 하나
+
 public class Solution2 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> numsMap = new HashMap<>();
