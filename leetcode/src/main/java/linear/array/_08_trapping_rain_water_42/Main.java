@@ -1,4 +1,4 @@
-package linear.array.trappingrainwater42;
+package linear.array._08_trapping_rain_water_42;
 
 public class Main {
     public static int trap(int[] height) {
