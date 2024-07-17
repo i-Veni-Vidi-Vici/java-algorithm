@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Solution1 {
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> results = new LinkedList<>();
         Arrays.sort(nums);
 
@@ -28,6 +28,13 @@ public class Solution1 {
             }
         }
         return results;
+    }
+
+    public static void main(String[] args) {
+
+        List<List<Integer>> result = threeSum(new int[]{-4, -2, 1, -5, -4, -4, 4, -2, 0, 4, 0, -2, 3, 1, -5, 0});
+        System.out.println(result.toString());
+
     }
 
     // timeout
