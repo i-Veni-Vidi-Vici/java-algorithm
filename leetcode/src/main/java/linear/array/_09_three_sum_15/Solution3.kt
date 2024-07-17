@@ -1,4 +1,4 @@
-package linear.array.threesum15
+package linear.array._09_three_sum_15
 
 import java.util.*
 
