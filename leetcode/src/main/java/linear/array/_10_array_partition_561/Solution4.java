@@ -1,4 +1,4 @@
-package linear.array.arraypartition561;
+package linear.array._10_array_partition_561;
 
 public class Solution4 {
     public int arrayPairSum(int[] nums) {

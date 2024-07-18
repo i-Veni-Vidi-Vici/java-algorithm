@@ -1,4 +1,4 @@
-package linear.array.arraypartition561
+package linear.array._10_array_partition_561
 
 class Solution3 {
     fun arrayPairSum(nums: IntArray): Int {

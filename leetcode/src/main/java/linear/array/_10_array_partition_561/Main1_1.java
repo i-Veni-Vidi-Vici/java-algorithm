@@ -1,4 +1,4 @@
-package linear.array.arraypartition561;
+package linear.array._10_array_partition_561;
 
 import java.util.ArrayList;
 import java.util.Arrays;
