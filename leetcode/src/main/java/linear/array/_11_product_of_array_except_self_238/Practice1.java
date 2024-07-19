@@ -1,4 +1,4 @@
-package linear.array.productofarrayexceptself238;
+package linear.array._11_product_of_array_except_self_238;
 
 import java.util.Arrays;
 

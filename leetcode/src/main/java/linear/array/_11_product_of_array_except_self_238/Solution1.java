@@ -1,5 +1,6 @@
-package linear.array.productofarrayexceptself238;
+package linear.array._11_product_of_array_except_self_238;
 
+// TODO : 나눗셈 없이 O(n)
 public class Solution1 {
     public int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];
