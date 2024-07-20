@@ -1,4 +1,4 @@
-package linear.array.besttimetobuyandsellstock121;
+package linear.array._12_best_time_to_buy_and_sel_lstock_121;
 
 public class Solution1 {
     public int maxProfit(int[] prices) {
