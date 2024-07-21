@@ -1,7 +1,5 @@
 package linear.linkedlist.mergetwosortedlists21;
 
-import linear.linkedlist.palindromelinkedlist234.Main.ListNode;
-
 public class Main {
     public class ListNode {
         int val;
