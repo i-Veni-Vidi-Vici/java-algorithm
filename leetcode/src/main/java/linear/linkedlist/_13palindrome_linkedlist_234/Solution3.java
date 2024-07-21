@@ -2,6 +2,7 @@ package linear.linkedlist._13palindrome_linkedlist_234;
 
 import linear.linkedlist._13palindrome_linkedlist_234.Main.ListNode;
 
+// TODO : 러너
 public class Solution3 {
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head, slow = head;
