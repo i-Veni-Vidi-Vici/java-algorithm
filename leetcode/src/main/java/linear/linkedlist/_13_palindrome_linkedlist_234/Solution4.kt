@@ -1,4 +1,4 @@
-package linear.linkedlist._13palindrome_linkedlist_234
+package linear.linkedlist._13_palindrome_linkedlist_234
 
 import java.util.*
 

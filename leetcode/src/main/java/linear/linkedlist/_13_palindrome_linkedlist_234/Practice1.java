@@ -1,4 +1,4 @@
-package linear.linkedlist._13palindrome_linkedlist_234;
+package linear.linkedlist._13_palindrome_linkedlist_234;
 
 public class Practice1 {
     public static class ListNode {

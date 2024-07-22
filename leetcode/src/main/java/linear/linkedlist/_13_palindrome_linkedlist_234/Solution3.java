@@ -1,6 +1,6 @@
-package linear.linkedlist._13palindrome_linkedlist_234;
+package linear.linkedlist._13_palindrome_linkedlist_234;
 
-import linear.linkedlist._13palindrome_linkedlist_234.Main.ListNode;
+import linear.linkedlist._13_palindrome_linkedlist_234.Main.ListNode;
 
 // TODO : 러너
 public class Solution3 {

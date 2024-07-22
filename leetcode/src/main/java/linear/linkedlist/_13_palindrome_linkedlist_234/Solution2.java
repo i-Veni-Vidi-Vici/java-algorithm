@@ -1,8 +1,8 @@
-package linear.linkedlist._13palindrome_linkedlist_234;
+package linear.linkedlist._13_palindrome_linkedlist_234;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import linear.linkedlist._13palindrome_linkedlist_234.Main.ListNode;
+import linear.linkedlist._13_palindrome_linkedlist_234.Main.ListNode;
 
 public class Solution2 {
     public boolean isPalindrome(ListNode head) {
