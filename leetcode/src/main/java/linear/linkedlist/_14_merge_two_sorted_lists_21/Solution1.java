@@ -2,6 +2,7 @@ package linear.linkedlist._14_merge_two_sorted_lists_21;
 
 import linear.linkedlist._14_merge_two_sorted_lists_21.Main.ListNode;
 
+// TODO : 재귀
 public class Solution1 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         // 두 노드 중 한쪽이 널이면 널이 아닌 노드를 리턴
