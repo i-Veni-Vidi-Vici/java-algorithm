@@ -1,6 +1,6 @@
-package linear.linkedlist.mergetwosortedlists21;
+package linear.linkedlist._14_merge_two_sorted_lists_21;
 
-import linear.linkedlist.mergetwosortedlists21.Main.ListNode;
+import linear.linkedlist._14_merge_two_sorted_lists_21.Main.ListNode;
 
 public class Solution1 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

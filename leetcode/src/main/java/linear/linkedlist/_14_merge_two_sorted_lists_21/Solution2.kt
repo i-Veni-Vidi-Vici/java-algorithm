@@ -1,4 +1,4 @@
-package linear.linkedlist.mergetwosortedlists21
+package linear.linkedlist._14_merge_two_sorted_lists_21
 
 class Solution2 {
     fun mergeTwoLists(list1: Main.ListNode?, list2: Main.ListNode?): Main.ListNode? {
