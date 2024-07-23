@@ -1,6 +1,6 @@
-package linear.linkedlist.reverselinkedlist206;
+package linear.linkedlist._15_reverse_linked_list_206;
 
-import linear.linkedlist.reverselinkedlist206.Main.ListNode;
+import linear.linkedlist._15_reverse_linked_list_206.Main.ListNode;
 
 public class Solution1 {
     public ListNode reverse(ListNode node, ListNode prev) {
