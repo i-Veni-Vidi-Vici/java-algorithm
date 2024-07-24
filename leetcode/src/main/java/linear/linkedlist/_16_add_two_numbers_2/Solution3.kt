@@ -1,4 +1,4 @@
-package linear.linkedlist.addtwonumbers2
+package linear.linkedlist._16_add_two_numbers_2
 
 class Solution3 {
     fun addTwoNumbers(l1: Main.ListNode?, l2: Main.ListNode?): Main.ListNode? {

@@ -1,6 +1,6 @@
-package linear.linkedlist.addtwonumbers2;
+package linear.linkedlist._16_add_two_numbers_2;
 
-import static linear.linkedlist.addtwonumbers2.Main.*;
+import static linear.linkedlist._16_add_two_numbers_2.Main.*;
 
 import java.math.BigInteger;
 

@@ -1,7 +1,7 @@
-package linear.linkedlist.addtwonumbers2;
+package linear.linkedlist._16_add_two_numbers_2;
 
 import java.math.BigInteger;
-import linear.linkedlist.addtwonumbers2.Main.ListNode;
+import linear.linkedlist._16_add_two_numbers_2.Main.ListNode;
 
 public class Solution1 {
     public ListNode reverseList(ListNode head) {

@@ -1,6 +1,6 @@
-package linear.linkedlist.addtwonumbers2;
+package linear.linkedlist._16_add_two_numbers_2;
 
-import linear.linkedlist.addtwonumbers2.Main.ListNode;
+import linear.linkedlist._16_add_two_numbers_2.Main.ListNode;
 
 public class Solution2 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
