@@ -2,6 +2,8 @@ package linear.linkedlist._16_add_two_numbers_2;
 
 import linear.linkedlist._16_add_two_numbers_2.Main.ListNode;
 
+// TODO : 전가산기 구현
+
 public class Solution2 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 값을 계산할 임시 노드 선언
