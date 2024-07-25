@@ -1,4 +1,4 @@
-package linear.linkedlist.swapnodesinpairs24
+package linear.linkedlist._17_swap_nodes_in_pairs_24
 
 class Solution4 {
     fun swapPairs(head: Main.ListNode?): Main.ListNode? {

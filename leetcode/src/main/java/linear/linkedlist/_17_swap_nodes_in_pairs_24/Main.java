@@ -1,4 +1,4 @@
-package linear.linkedlist.swapnodesinpairs24;
+package linear.linkedlist._17_swap_nodes_in_pairs_24;
 
 public class Main {
     public static class ListNode {

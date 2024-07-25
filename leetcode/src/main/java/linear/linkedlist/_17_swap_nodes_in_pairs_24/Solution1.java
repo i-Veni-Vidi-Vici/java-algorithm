@@ -1,6 +1,6 @@
-package linear.linkedlist.swapnodesinpairs24;
+package linear.linkedlist._17_swap_nodes_in_pairs_24;
 
-import linear.linkedlist.swapnodesinpairs24.Main.ListNode;
+import linear.linkedlist._17_swap_nodes_in_pairs_24.Main.ListNode;
 
 public class Solution1 {
     public ListNode swapPairs(ListNode head) {
