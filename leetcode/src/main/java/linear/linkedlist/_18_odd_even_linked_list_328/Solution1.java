@@ -1,6 +1,6 @@
-package linear.linkedlist.oddevenlinkedlist328;
+package linear.linkedlist._18_odd_even_linked_list_328;
 
-import linear.linkedlist.oddevenlinkedlist328.Main.ListNode;
+import linear.linkedlist._18_odd_even_linked_list_328.Main.ListNode;
 
 public class Solution1 {
     public ListNode oddEvenList(ListNode head) {

@@ -1,4 +1,4 @@
-package linear.linkedlist.oddevenlinkedlist328
+package linear.linkedlist._18_odd_even_linked_list_328
 
 class Solution2 {
     fun oddEvenList(head: Main.ListNode?): Main.ListNode? {

@@ -1,4 +1,4 @@
-package linear.linkedlist.oddevenlinkedlist328;
+package linear.linkedlist._18_odd_even_linked_list_328;
 
 public class Main {
     public class ListNode {
