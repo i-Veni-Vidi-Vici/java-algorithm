@@ -1,6 +1,6 @@
-package linear.linkedlist.reverselinkedlistII92;
+package linear.linkedlist._19_reverse_linkedlist_II_92;
 
-import linear.linkedlist.reverselinkedlistII92.Main.ListNode;
+import linear.linkedlist._19_reverse_linkedlist_II_92.Main.ListNode;
 
 public class Solution1 {
     public ListNode reverseBetween(ListNode head, int left, int right) {

@@ -1,4 +1,4 @@
-package linear.linkedlist.reverselinkedlistII92;
+package linear.linkedlist._19_reverse_linkedlist_II_92;
 
 public class Main {
     public static class ListNode {

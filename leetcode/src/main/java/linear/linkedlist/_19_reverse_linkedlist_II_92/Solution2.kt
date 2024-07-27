@@ -1,4 +1,4 @@
-package linear.linkedlist.reverselinkedlistII92
+package linear.linkedlist._19_reverse_linkedlist_II_92
 
 class Solution2 {
     fun reverseBetween(head: Main.ListNode?, left: Int, right: Int): Main.ListNode? {
