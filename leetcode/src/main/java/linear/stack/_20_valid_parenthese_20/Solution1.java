@@ -1,4 +1,4 @@
-package linear.stack.validparenthese20;
+package linear.stack._20_valid_parenthese_20;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
