@@ -5,8 +5,9 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 
+// TODO : 스택
 public class Solution2 {
-    public String removeDuplicateLetters(String s) {
+    public static String removeDuplicateLetters(String s) {
         // 문자 개수를 계산해서 담아둘 변수 선언
         Map<Character, Integer> counter = new HashMap<>();
         // 이미 처리한 문자 여부를 확인하기 위한 변수 선언
@@ -38,6 +39,10 @@ public class Solution2 {
         while (!stack.isEmpty())
             sb.append(stack.pollLast());
         return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        removeDuplicateLetters("dbacdcbc");
     }
 
     // 4ms
