@@ -3,8 +3,9 @@ package linear.stack._21_remove_duplicate_letters_316;
 import java.util.Set;
 import java.util.TreeSet;
 
+// TODO : 재귀
 public class Solution1 {
-    public Set<Character> toSortedSet(String s) {
+    public static Set<Character> toSortedSet(String s) {
         // 문자열을 문자 단위 집합으로 저장할 변수 선언
         // 비교 메소드 재정의
         Set<Character> set = new TreeSet<>((o1, o2) -> {
@@ -26,7 +27,7 @@ public class Solution1 {
         return set;
     }
 
-    public String removeDuplicateLetters(String s) {
+    public  static String removeDuplicateLetters(String s) {
         // 정렬된 문자열 집합 순회
         for (char c : toSortedSet(s)) {
             // 해당 문자가 포함된 위치부터 접미사로 지정
@@ -37,6 +38,10 @@ public class Solution1 {
             }
         }
         return "";
+    }
+
+    public static void main(String[] args) {
+        removeDuplicateLetters("dbacdcbc");
     }
 
     // 익명 클래스: 62~63ms, 람다: 62~64ms 거의 동일
