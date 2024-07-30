@@ -1,4 +1,4 @@
-package linear.stack.dailytemperatures739;
+package linear.stack._22_daily_temperatures_739;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
