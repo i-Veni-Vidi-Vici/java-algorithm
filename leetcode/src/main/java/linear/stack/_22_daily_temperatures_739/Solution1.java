@@ -3,6 +3,8 @@ package linear.stack._22_daily_temperatures_739;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// TODO : 스택
+
 public class Solution1 {
     public int[] dailyTemperatures(int[] temperatures) {
         // 결과를 담을 정수형 배열 선언
