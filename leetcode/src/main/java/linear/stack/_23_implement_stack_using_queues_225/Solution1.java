@@ -3,6 +3,8 @@ package linear.stack._23_implement_stack_using_queues_225;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// TODO : only queue
+
 public class Solution1 {
     // 큐 변수, 구현체는 LinkedList로 선언
     Queue<Integer> queue = new LinkedList<>();
