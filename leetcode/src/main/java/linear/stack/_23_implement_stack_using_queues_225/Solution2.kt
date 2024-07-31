@@ -1,4 +1,4 @@
-package linear.stack.implementstackusingqueues225
+package linear.stack._23_implement_stack_using_queues_225
 
 import java.util.*
 

@@ -1,9 +1,7 @@
-package linear.stack.implementstackusingqueues225;
+package linear.stack._23_implement_stack_using_queues_225;
 
 
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class Main {
