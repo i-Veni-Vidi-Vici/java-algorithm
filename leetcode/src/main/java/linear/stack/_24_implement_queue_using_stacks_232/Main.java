@@ -1,4 +1,4 @@
-package linear.stack.implementqueueusingstacks232;
+package linear.stack._24_implement_queue_using_stacks_232;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
