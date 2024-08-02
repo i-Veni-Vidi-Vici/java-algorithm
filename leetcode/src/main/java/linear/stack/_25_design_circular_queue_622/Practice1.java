@@ -13,18 +13,14 @@ public class Practice1 {
         public MyCircularQueue(int k) {
             value = new int[k];
             front = 0;
-            rear = 0;
+            rear = -1;
             size = k;
             length = 0;
         }
 
         public boolean enQueue(int value) {
             if (!isFull()) {
-                if (isEmpty()) {
-                    this.value[rear] = value;
-                    length++;
-                    return true;
-                }
+
                 rear = (rear + 1) % size;
                 this.value[rear] = value;
                 length++;
@@ -79,8 +75,6 @@ public class Practice1 {
 
 
     }
-
-    // Wrong Answer
-    //39 / 59 testcases passed
+    // 4ms
 
 }
