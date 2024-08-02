@@ -1,4 +1,4 @@
-package linear.stack.designcircularqueue622;
+package linear.stack._25_design_circular_queue_622;
 
 public class Solution1 {
     int[] q;

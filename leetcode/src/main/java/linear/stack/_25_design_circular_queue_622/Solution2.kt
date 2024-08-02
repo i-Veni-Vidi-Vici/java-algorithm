@@ -1,4 +1,4 @@
-package linear.stack.designcircularqueue622
+package linear.stack._25_design_circular_queue_622
 
 class Solution2(k: Int) {
     // k 크기의 원형 큐로 사용할 배열 선언
