@@ -1,4 +1,4 @@
-package linear.deque.designcirculardeque641
+package linear.deque._26_design_circular_deque_641
 
 class Solution2(k: Int) {
     // 이중 연결 리스트로 사용할 클래스 선언

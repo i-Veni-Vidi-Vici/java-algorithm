@@ -1,4 +1,4 @@
-package linear.deque.designcirculardeque641;
+package linear.deque._26_design_circular_deque_641;
 
 import java.util.LinkedList;
 import java.util.List;
