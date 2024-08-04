@@ -1,7 +1,7 @@
-package linear.priorityqueue.mergeksortedlists23;
+package linear.priorityqueue._27_merge_k_sorted_lists_23;
 
 import java.util.PriorityQueue;
-import linear.priorityqueue.mergeksortedlists23.Main.ListNode;
+import linear.priorityqueue._27_merge_k_sorted_lists_23.Main.ListNode;
 
 public class Solution1 {
     public ListNode mergeKLists(ListNode[] lists) {

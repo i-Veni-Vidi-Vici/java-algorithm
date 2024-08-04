@@ -1,6 +1,6 @@
-package linear.priorityqueue.mergeksortedlists23
+package linear.priorityqueue._27_merge_k_sorted_lists_23
 
-import linear.priorityqueue.mergeksortedlists23.Main.ListNode
+import linear.priorityqueue._27_merge_k_sorted_lists_23.Main.ListNode
 import java.util.*
 
 class Solution2 {

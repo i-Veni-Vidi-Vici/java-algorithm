@@ -1,4 +1,4 @@
-package linear.priorityqueue.mergeksortedlists23;
+package linear.priorityqueue._27_merge_k_sorted_lists_23;
 
 public class Main {
 
