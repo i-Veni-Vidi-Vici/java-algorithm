@@ -3,6 +3,7 @@ package linear.priorityqueue._27_merge_k_sorted_lists_23;
 import java.util.PriorityQueue;
 import linear.priorityqueue._27_merge_k_sorted_lists_23.Main.ListNode;
 
+// TODO : 우선순위 큐
 public class Solution1 {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> pq = new PriorityQueue<>((o1, o2) -> {
