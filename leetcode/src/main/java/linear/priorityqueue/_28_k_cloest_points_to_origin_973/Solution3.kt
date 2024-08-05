@@ -1,4 +1,4 @@
-package linear.priorityqueue.kcloestpointsorigin973
+package linear.priorityqueue._28_k_cloest_points_to_origin_973
 
 import java.util.*
 

@@ -1,16 +1,16 @@
-package linear.priorityqueue.kcloestpointsorigin973;
+package linear.priorityqueue._28_k_cloest_points_to_origin_973;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Solution2 {
+public class Solution1 {
     // 거리와 좌표를 보관할 Point 클래스 선언
     static class Point {
-        long distance;
+        double distance;
         int[] point;
 
         // 거리와 좌표를 파라미터로 받는다.
-        public Point(long distance, int[] point) {
+        public Point(double distance, int[] point) {
             this.distance = distance;
             this.point = point;
         }
@@ -18,12 +18,12 @@ public class Solution2 {
 
     public int[][] kClosest(int[][] points, int k) {
         // Point 클래스를 저장하는 우선순위 큐로, 정렬 기준은 distance로 한다.
-        PriorityQueue<Point> pq = new PriorityQueue<>(Comparator.comparingLong(a -> a.distance));
+        PriorityQueue<Point> pq = new PriorityQueue<>(Comparator.comparingDouble(a -> a.distance));
 
         // 파라미터로 받은 좌표 목록 순회
         for (int[] point : points) {
             // 유클리드 거리 계산
-            long distance = (long) point[0] * point[0] + (long) point[1] * point[1];
+            double distance = Math.sqrt((long) point[0] * point[0] + (long) point[1] * point[1]);
             // 우선순위 큐에 거리와 좌표를 Point 클래스로 담아 삽입
             pq.add(new Point(distance, point));
         }
@@ -37,5 +37,5 @@ public class Solution2 {
         return results;
     }
 
-    // 25~ 26 ms, 속도향상
+    // 27ms
 }
