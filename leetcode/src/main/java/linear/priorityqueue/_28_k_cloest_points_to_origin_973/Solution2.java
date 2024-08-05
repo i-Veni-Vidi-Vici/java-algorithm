@@ -3,7 +3,7 @@ package linear.priorityqueue._28_k_cloest_points_to_origin_973;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-// TODO : 우선순위 큐 향상
+// TODO : 우선순위 큐 향상it
 public class Solution2 {
     // 거리와 좌표를 보관할 Point 클래스 선언
     static class Point {
