@@ -1,4 +1,4 @@
-package linear.priorityqueue.더맵게;
+package linear.priorityqueue._29_더맵게;
 
 import java.util.PriorityQueue;
 
