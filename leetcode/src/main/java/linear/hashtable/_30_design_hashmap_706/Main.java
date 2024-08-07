@@ -1,6 +1,4 @@
-package linear.hashtable.designhashmap706;
-
-import java.util.Arrays;
+package linear.hashtable._30_design_hashmap_706;
 
 public class Main {
     static class MyHashMap {
