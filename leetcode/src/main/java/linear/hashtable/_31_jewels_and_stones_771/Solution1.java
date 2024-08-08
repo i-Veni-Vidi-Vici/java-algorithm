@@ -1,4 +1,4 @@
-package linear.hashtable.jewelsandstones771;
+package linear.hashtable._31_jewels_and_stones_771;
 
 import java.util.HashMap;
 import java.util.Map;
