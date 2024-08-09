@@ -1,4 +1,4 @@
-package linear.hashtable.longestsubstringwithoutrepeatingcharacters3
+package linear.hashtable._32_longest_substring_without_repeating_characters_3
 
 import kotlin.math.max
 
