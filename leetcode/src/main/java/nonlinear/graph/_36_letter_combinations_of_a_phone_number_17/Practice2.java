@@ -19,19 +19,20 @@ public class Practice2 {
         map.put('8', List.of("p", "u", "v"));
         map.put('9', List.of("w", "x", "y", "z"));
 
-        dfs(result, map, "", digits.toCharArray(), 0);
+        dfs(result, map, new StringBuilder(), digits.toCharArray(), 0);
 
         return result;
     }
 
-    public void dfs(List<String> result, Map<Character, List<String>> map, String value, char[] digits, int index) {
+    public void dfs(List<String> result, Map<Character, List<String>> map, StringBuilder value, char[] digits, int index) {
         if (index >= digits.length) {
-            result.add(value);
+            result.add(value.toString());
+            return;
         }
 
         for (String s : map.get(digits[index])) {
-            value += s;
-            dfs(result, map, value, digits, ++index);
+
+            dfs(result, map, new StringBuilder(value).append(s), digits, ++index);
 
         }
 
