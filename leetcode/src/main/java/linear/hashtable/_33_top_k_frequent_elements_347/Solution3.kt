@@ -1,4 +1,4 @@
-package linear.hashtable.topkfrequentelements347
+package linear.hashtable._33_top_k_frequent_elements_347
 
 import java.util.*
 

@@ -1,4 +1,4 @@
-package linear.hashtable.완주하지못한선수;
+package linear.hashtable._34_완주하지못한선수;
 
 import java.util.HashMap;
 import java.util.Map;

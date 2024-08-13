@@ -1,7 +1,8 @@
-package linear.hashtable.longestsubstringwithoutrepeatingcharacters3;
+package linear.hashtable._32_longest_substring_without_repeating_characters_3;
 
 import java.util.HashMap;
 
+// TODO : 해시 맵
 public class Solution1 {
     public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> used = new HashMap<>();
