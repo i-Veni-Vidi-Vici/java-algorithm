@@ -31,7 +31,8 @@ public class Practice3 {
 
         }
 
-        return null;
+        return 0;
 
     }
+    // error
 }
