@@ -21,13 +21,14 @@ public class Practice3 {
         while (!pq.isEmpty()) {
             List<Integer> value = pq.poll();
 
+            if (value.get(0) == dst) {
+                return value.get(1) ;
+            }
             if (map.containsKey(value.get(0))) {
                 for (Integer key : map.get(value.get(0)).keySet()) {
                     if (value.get(2) + 1 < k) {
 
-                        if (key == dst) {
-                            return value.get(1) + map.get(value.get(0)).get(key);
-                        }
+
                         pq.add(List.of(key, map.get(value.get(0)).get(key) + value.get(1), value.get(2) + 1));
                     }
                 }
