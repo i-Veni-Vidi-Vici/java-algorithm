@@ -1,4 +1,4 @@
-package nonlinear.shortestpath._46_game_map_shortest_path;
+package nonlinear.shortestpath._46_게임맵최단거리;
 
 import java.util.Arrays;
 import java.util.Comparator;
