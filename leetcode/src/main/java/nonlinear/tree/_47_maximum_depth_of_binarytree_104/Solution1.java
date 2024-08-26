@@ -1,4 +1,4 @@
-package nonlinear.tree.maximumdepthofbinarytree104;
+package nonlinear.tree._47_maximum_depth_of_binarytree_104;
 
 import java.util.LinkedList;
 import java.util.Queue;

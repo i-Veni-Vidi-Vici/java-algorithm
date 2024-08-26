@@ -1,4 +1,4 @@
-package nonlinear.tree.longestunivaluepath687;
+package nonlinear.tree._49_longest_univalue_path_687;
 
 public class Solution1 {
     public class TreeNode {
