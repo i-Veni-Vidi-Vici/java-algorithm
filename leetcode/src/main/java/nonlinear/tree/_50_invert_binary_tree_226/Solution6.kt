@@ -1,4 +1,4 @@
-package nonlinear.tree.invertbinarytree226
+package nonlinear.tree._50_invert_binary_tree_226
 
 class Solution6 {
     fun invertTree(root: Main.TreeNode?): Main.TreeNode? {

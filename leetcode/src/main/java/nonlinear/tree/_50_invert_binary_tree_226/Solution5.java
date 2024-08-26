@@ -1,4 +1,4 @@
-package nonlinear.tree.invertbinarytree226;
+package nonlinear.tree._50_invert_binary_tree_226;
 
 import java.util.LinkedList;
 import java.util.Queue;

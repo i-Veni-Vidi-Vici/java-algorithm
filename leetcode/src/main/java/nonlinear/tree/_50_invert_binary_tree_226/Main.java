@@ -1,7 +1,7 @@
-package nonlinear.tree.invertbinarytree226;
+package nonlinear.tree._50_invert_binary_tree_226;
 
+public class Main {
 
-public class Solution2 {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -22,18 +22,18 @@ public class Solution2 {
     }
 
     public TreeNode invertTree(TreeNode root) {
-        // 빈 노드가 아닐때 처리
-        if (root != null) {
-            // 왼쪽/오른쪽 자식 노드 스왑
+        if (root == null) {
+            return root;
+        }
+        if (root.left != null || root.right != null) {
             TreeNode temp = root.left;
             root.left = root.right;
             root.right = temp;
-
-            invertTree(root.left);  // 왼쪽 자식 노드 DFS
-            invertTree(root.right); // 오른쪽 자식 노드 DFS
+            invertTree(root.left);
+            invertTree(root.right);
         }
+
         return root;
     }
-
     // 0ms
 }
