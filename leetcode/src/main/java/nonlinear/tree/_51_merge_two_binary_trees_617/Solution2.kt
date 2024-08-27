@@ -1,4 +1,4 @@
-package nonlinear.tree.mergetwobinarytrees617
+package nonlinear.tree._51_merge_two_binary_trees_617
 
 class Solution2 {
     fun mergeTrees(root1: Main.TreeNode?, root2: Main.TreeNode?): Main.TreeNode? {
