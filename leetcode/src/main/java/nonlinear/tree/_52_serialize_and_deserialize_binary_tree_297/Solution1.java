@@ -1,4 +1,4 @@
-package nonlinear.tree.serializeanddeserializebinarytree297;
+package nonlinear.tree._52_serialize_and_deserialize_binary_tree_297;
 
 import java.util.LinkedList;
 import java.util.Queue;
