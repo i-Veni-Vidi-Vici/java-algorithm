@@ -1,4 +1,4 @@
-package nonlinear.tree.minimumheighttrees310;
+package nonlinear.tree._54_minimum_height_trees_310;
 
 import java.util.ArrayList;
 import java.util.HashMap;
