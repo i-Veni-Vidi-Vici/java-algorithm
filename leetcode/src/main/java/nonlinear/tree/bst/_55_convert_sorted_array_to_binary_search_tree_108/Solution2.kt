@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.convertsortedarraytobinarysearchtree108
+package nonlinear.tree.bst._55_convert_sorted_array_to_binary_search_tree_108
 
 class Solution2 {
     fun sortedArrayToBST(nums: IntArray): Main.TreeNode? {
