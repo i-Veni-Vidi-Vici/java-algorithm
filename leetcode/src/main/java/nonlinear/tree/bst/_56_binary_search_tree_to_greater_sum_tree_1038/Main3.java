@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.binarysearchtreetogreatersumtreee1038;
+package nonlinear.tree.bst._56_binary_search_tree_to_greater_sum_tree_1038;
 
 public class Main3 {
     public class TreeNode {

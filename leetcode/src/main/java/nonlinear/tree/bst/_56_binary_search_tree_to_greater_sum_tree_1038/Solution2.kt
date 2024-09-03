@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.binarysearchtreetogreatersumtreee1038
+package nonlinear.tree.bst._56_binary_search_tree_to_greater_sum_tree_1038
 
 class Solution2 {
     // 각 노드의 값을 설정하기 위한 변수 선언
