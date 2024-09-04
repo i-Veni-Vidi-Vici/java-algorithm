@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.rangesumofbst938;
+package nonlinear.tree.bst._57_range_sum_of_bst_938;
 
 // TODO : DFS - 브루트포스 자체로 가능
 

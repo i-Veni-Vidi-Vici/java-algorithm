@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.rangesumofbst938;
+package nonlinear.tree.bst._57_range_sum_of_bst_938;
 
 public class Main2 {
     public class TreeNode {
