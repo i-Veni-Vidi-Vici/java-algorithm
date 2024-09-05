@@ -1,7 +1,4 @@
-package nonlinear.tree.bst.minimumdistancebetweenbstnodes783;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
+package nonlinear.tree.bst._58_minimum_distance_between_bst_nodes_783;
 
 public class Main1_2 {
       public class TreeNode {

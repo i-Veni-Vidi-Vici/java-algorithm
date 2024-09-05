@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.minimumdistancebetweenbstnodes783
+package nonlinear.tree.bst._58_minimum_distance_between_bst_nodes_783
 
 import java.util.*
 import java.util.ArrayDeque

@@ -1,4 +1,4 @@
-package nonlinear.tree.bst.minimumdistancebetweenbstnodes783;
+package nonlinear.tree.bst._58_minimum_distance_between_bst_nodes_783;
 
 // TODO : 재귀
 public class Solution1 {
