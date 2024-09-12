@@ -15,7 +15,7 @@ public class Practice2 {
             }
         }
 
-        return dfs(nums, target, 0, nums.length, minIndex+1);
+        return dfs(nums, target, 0, nums.length-1, minIndex);
     }
 
     public static int dfs(int[] nums, int target, int left, int right, int minIndex){
