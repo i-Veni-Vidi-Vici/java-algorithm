@@ -14,7 +14,7 @@ public class Practice2 {
 
         long mid = right;
         while(left<=right){
-            int cnt=0;
+            long cnt=0;
             for(int i=0; i<times.length; i++){
                 cnt+= mid/times[i];
             }
@@ -31,13 +31,12 @@ public class Practice2 {
 
         return answer;
     }
-//    테스트 1 〉	통과 (0.07ms, 74.3MB)
-//    테스트 2 〉	통과 (0.11ms, 74.9MB)
-//    테스트 3 〉	통과 (1.21ms, 80.7MB)
-//    테스트 4 〉	실패 (3.19ms, 81.1MB)
-//    테스트 5 〉	실패 (3.08ms, 86.8MB)
-//    테스트 6 〉	실패 (39.83ms, 88.6MB)
-//    테스트 7 〉	실패 (3.89ms, 79.9MB)
-//    테스트 8 〉	실패 (3.62ms, 84.5MB)
-//    테스트 9 〉	실패 (0.06ms, 73.8MB)
+//    테스트 1 〉	통과 (0.10ms, 77.2MB)
+//    테스트 2 〉	통과 (0.11ms, 73.7MB)
+//    테스트 3 〉	통과 (1.16ms, 84MB)
+//    테스트 5 〉	통과 (47.64ms, 91.3MB)
+//    테스트 6 〉	통과 (42.00ms, 78.9MB)
+//    테스트 7 〉	통과 (58.77ms, 80.2MB)
+//    테스트 8 〉	통과 (62.78ms, 82.4MB)
+//    테스트 9 〉	통과 (0.10ms, 73.9MB)
 }
