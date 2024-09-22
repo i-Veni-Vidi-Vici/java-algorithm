@@ -22,11 +22,12 @@ public class Practice4 {
 
         sb.reverse();
 
-        return Integer.parseInt(sb.toString(), 2);
+        return Integer.parseUnsignedInt(sb.toString(), 2);
     }
 
     public static void main(String[] args) {
+        System.out.println(Integer.parseUnsignedInt("11111111111111111111111111101100", 2));
         getSum(1, 2);
     }
-    // error
+    // 3ms
 }
