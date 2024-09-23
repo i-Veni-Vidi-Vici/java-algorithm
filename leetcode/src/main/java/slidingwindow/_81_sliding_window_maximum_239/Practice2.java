@@ -17,5 +17,5 @@ public class Practice2 {
 
         return result.stream().mapToInt(Integer::intValue).toArray();
     }
-    // error
+    // Time Limit Exceeded
 }
