@@ -9,10 +9,10 @@ public class Practice2 {
     public int[][] reconstructQueue(int[][] people) {
         List<int[]> result = new LinkedList<>();
         Arrays.sort(people, (o1, o2) -> {
-            if(o1[1]== o2[1]){
-                return o2[0]-o1[0];
-            } else{
+            if(o1[0]== o2[0]){
                 return o1[1]-o2[1];
+            } else{
+                return o2[0]-o1[0];
             }
         });
 
@@ -24,5 +24,5 @@ public class Practice2 {
         return result.toArray(new int[0][]);
     }
 
-    // Wrong Answer
+    // 8ms
 }
