@@ -12,7 +12,7 @@ public class Practice3 {
                 return o2[0]-o1[0];
             }
             else{
-                return o2[1]-o1[1];
+                return o1[1]-o2[1];
             }
         });
 
@@ -22,13 +22,12 @@ public class Practice3 {
         List<int[]> result = new LinkedList<>();
         while(!queue.isEmpty()){
             int[] value = queue.poll();
-            if(result.size()-1>= value[1])
-                result.add(value[1],value);
-            else  result.add(value);
+            result.add(value[1],value);
         }
 
         return result.toArray(new int [0][]);
     }
-    // error
+
+    // 6ms
 }
 
