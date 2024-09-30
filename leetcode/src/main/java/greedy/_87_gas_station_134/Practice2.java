@@ -10,6 +10,7 @@ public class Practice2 {
                 if(sum-cost[(index)%gas.length]>=0){
                     sum =sum+ gas[(index+1)%gas.length]-cost[(index)%gas.length];
                 } else{
+                    i= index;
                     break;
                 }
                 count++;
@@ -22,5 +23,5 @@ public class Practice2 {
         return -1;
     }
 
-    // Time Limit Exceeded
+    // 5ms
 }
