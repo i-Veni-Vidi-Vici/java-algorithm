@@ -3,43 +3,63 @@ package kakao_2022._99_양궁대회;
 import java.util.*;
 
 public class Practice1 {
-    int max = Integer.MIN_VALUE;
-    int[] result;
-
-    public int[] solution(int n, int[] info) {
-        dfs(0, n, info, new int[11]);
-
+    static int   max = 0;
+    static int[] result;
+    public static int[] solution(int n, int[] info) {
+        dfs(0,n, info, new int[11]);
+        if (max == 0)
+            return new int[]{-1};
         return result;
     }
-
-    private void dfs(int index, int arrow, int[] info, int[] lion) {
-        if (index == 11) {
-            lion[10] += arrow;
-            int sum = 0;
-            for (int i = 0; i < lion.length; i++) {
-                if (info[i] < lion[i]) {
-                    sum += 10 - i;
+    private static void dfs(int index, int arrow, int[] info, int[] lion){
+        if(index == 11){
+            lion[10]+=arrow;
+            int sum=0;
+            for(int i=0; i<lion.length; i++){
+                if(info[i]<lion[i]){
+                    sum+=10-i;
+                } else if(info[i]== 0 && lion[i]==0){
+                    continue;
+                }
+                else{
+                    sum -= 10-i;
                 }
             }
-            if (max < sum) {
+            if(max<sum){
+                System.out.println(sum);
                 max = sum;
                 result = Arrays.copyOf(lion, lion.length);
+            }
+            else if (sum == max) {
+                for (int i = 10; i >= 0; i--) {
+                    if (lion[i] == result[i])
+                        continue;
+                    // 뒤에서부터 더 많이 맞힌 경우 정답 교체
+                    if (lion[i] > result[i])
+                        result = Arrays.copyOf(lion, lion.length);
+                    break;
+                }
             }
 
             return;
         }
 
-        if (info[index] < arrow) {
-            lion[index] = info[index] + 1;
-            arrow -= lion[index];
-            index++;
-            dfs(index, arrow, info, lion);
-            lion[--index] = 0;
+        if(info[index]<arrow){
+            lion[index]= info[index]+1;
+
+            dfs(index+1, arrow- lion[index], info, lion);
+            lion[index]=0;
 
         }
-        dfs(index + 1, arrow, info, lion);
+        dfs(index+1, arrow, info, lion);
 
     }
+
+    public static void main(String[] args) {
+        solution(5, new int[]{2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0});
+    }
+
+
     // 정확성  테스트
     //테스트 1 〉	통과 (0.02ms, 84.6MB)
     //테스트 2 〉	실패 (0.05ms, 77.5MB)
