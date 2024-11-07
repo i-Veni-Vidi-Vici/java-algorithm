@@ -18,16 +18,15 @@ public class Practice1 {
             children = _children;
         }
     };
-    int max =0;
     public int maxDepth(Node root) {
-        return dfs(root)+1;
+        return dfs(root);
     }
 
     private int dfs(Node node){
         if(node == null){
             return 0;
         }
-
+        int max =0;
         for(Node child : node.children){
             int val = dfs(child);
             max = Math.max(val, max);
@@ -35,5 +34,5 @@ public class Practice1 {
 
         return max+1;
     }
-    // error
+    // 0ms
 }
