@@ -1,5 +1,7 @@
 package dynamicprogramming._435;
 
+import java.util.*;
+
 public class Solution1 {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals == null || intervals.length == 0) return 0;
