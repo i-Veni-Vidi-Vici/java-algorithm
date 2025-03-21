@@ -24,5 +24,5 @@ public class Practice2 {
 
         return Math.max(sold[n-1], rest[n-1]);
     }
-    //
+    // 0ms
 }
